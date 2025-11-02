@@ -1,0 +1,5222 @@
+[
+  {
+    "id": "press-militar-m-quina",
+    "name": "Press Militar · Máquina",
+    "category": "Fuerza",
+    "primaryMuscle": "shoulders",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-m-quina.png"
+  },
+  {
+    "id": "bodyweight-squat",
+    "name": "Sentadilla · Peso corporal",
+    "category": "Calistenia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/bodyweight-squat.png"
+  },
+  {
+    "id": "dominadas-peso-corporal",
+    "name": "Dominadas · Peso corporal",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-peso-corporal.png"
+  },
+  {
+    "id": "battle-rope-cuerdas",
+    "name": "Battle Rope · Cuerdas",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas.png"
+  },
+  {
+    "id": "soga-soga-a-una-mano",
+    "name": "Soga · Soga · a una mano",
+    "category": "Aislamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Soga",
+    "level": "principiante",
+    "image": "/assets/exercises/soga-soga-a-una-mano.png"
+  },
+  {
+    "id": "jal-n-m-quina",
+    "name": "Jalón · Máquina",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina.png"
+  },
+  {
+    "id": "sprint-peso-corporal-a-una-mano",
+    "name": "Sprint · Peso corporal · a una mano",
+    "category": "Aislamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "sentadilla-mancuernas",
+    "name": "Sentadilla · Mancuernas",
+    "category": "Calistenia",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/sentadilla-mancuernas.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-neutra",
+    "name": "Battle Rope · Cuerdas · neutra",
+    "category": "Calistenia",
+    "primaryMuscle": "full-body",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-neutra.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas",
+    "name": "Peso Muerto · Mancuernas",
+    "category": "Estabilidad",
+    "primaryMuscle": "lower-back",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-mancuernas.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-unilateral",
+    "name": "Peso Muerto · Mancuernas · unilateral",
+    "category": "Movilidad",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-unilateral.png"
+  },
+  {
+    "id": "sprint-peso-corporal-a-dos-manos",
+    "name": "Sprint · Peso corporal · a dos manos",
+    "category": "Hipertrofia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-a-dos-manos.png"
+  },
+  {
+    "id": "step-up-mancuernas-con-pausa",
+    "name": "Step-up · Mancuernas · con pausa",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-con-pausa.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-alto",
+    "name": "Sentadilla · Mancuernas · alto",
+    "category": "Fuerza",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-mancuernas-alto.png"
+  },
+  {
+    "id": "step-up-mancuernas-explosivo",
+    "name": "Step-up · Mancuernas · explosivo",
+    "category": "Calistenia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-explosivo.png"
+  },
+  {
+    "id": "soga-soga-parcial",
+    "name": "Soga · Soga · parcial",
+    "category": "Hipertrofia",
+    "primaryMuscle": "full-body",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-parcial.png"
+  },
+  {
+    "id": "extensi-n-polea",
+    "name": "Extensión · Polea",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-polea.png"
+  },
+  {
+    "id": "step-up-kettlebell",
+    "name": "Step-up · Kettlebell",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/step-up-kettlebell.png"
+  },
+  {
+    "id": "jal-n-polea",
+    "name": "Jalón · Polea",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-polea.png"
+  },
+  {
+    "id": "salto-en-caja-caja",
+    "name": "Salto en Caja · Caja",
+    "category": "Hipertrofia",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "avanzado",
+    "image": "/assets/exercises/salto-en-caja-caja.png"
+  },
+  {
+    "id": "swing-kettlebell",
+    "name": "Swing · Kettlebell",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/swing-kettlebell.png"
+  },
+  {
+    "id": "jal-n-polea-agarre-supino",
+    "name": "Jalón · Polea · agarre supino",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-polea-agarre-supino.png"
+  },
+  {
+    "id": "face-pull-polea",
+    "name": "Face Pull · Polea",
+    "category": "Condicionamiento",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-polea.png"
+  },
+  {
+    "id": "step-up-kettlebell-con-pausa",
+    "name": "Step-up · Kettlebell · con pausa",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-con-pausa.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-estrecho",
+    "name": "Peso Muerto · Mancuernas · estrecho",
+    "category": "Potencia",
+    "primaryMuscle": "lower-back",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-estrecho.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-alterno",
+    "name": "Dominadas · Peso corporal · alterno",
+    "category": "Corrección",
+    "primaryMuscle": "lats",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-peso-corporal-alterno.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell",
+    "name": "Peso Muerto · Kettlebell",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lower-back",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-kettlebell.png"
+  },
+  {
+    "id": "step-up-peso-corporal-tempo-3-1-1",
+    "name": "Step-up · Peso corporal · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-peso-corporal-tempo-3-1-1.png"
+  },
+  {
+    "id": "soga-soga-alterno",
+    "name": "Soga · Soga · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-alterno.png"
+  },
+  {
+    "id": "puente-barra",
+    "name": "Puente · Barra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-barra.png"
+  },
+  {
+    "id": "step-up-mancuernas-unilateral",
+    "name": "Step-up · Mancuernas · unilateral",
+    "category": "Calistenia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/step-up-mancuernas-unilateral.png"
+  },
+  {
+    "id": "apertura-mancuernas",
+    "name": "Apertura · Mancuernas",
+    "category": "Movilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/apertura-mancuernas.png"
+  },
+  {
+    "id": "puente-peso-corporal-alterno",
+    "name": "Puente · Peso corporal · alterno",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-peso-corporal-alterno.png"
+  },
+  {
+    "id": "face-pull-banda",
+    "name": "Face Pull · Banda",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-banda.png"
+  },
+  {
+    "id": "sprint-peso-corporal-tempo-3-1-1",
+    "name": "Sprint · Peso corporal · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-tempo-3-1-1.png"
+  },
+  {
+    "id": "sprint-peso-corporal-con-pausa",
+    "name": "Sprint · Peso corporal · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "plancha-peso-corporal-agarre-prono",
+    "name": "Plancha · Peso corporal · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "fondos-anillas",
+    "name": "Fondos · Anillas",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-anillas.png"
+  },
+  {
+    "id": "puente-barra-con-pausa",
+    "name": "Puente · Barra · con pausa",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/puente-barra-con-pausa.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-a-una-mano",
+    "name": "Peso Muerto · Mancuernas · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-a-una-mano.png"
+  },
+  {
+    "id": "curl-mancuernas",
+    "name": "Curl · Mancuernas",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-mancuernas.png"
+  },
+  {
+    "id": "sprint-peso-corporal-alto",
+    "name": "Sprint · Peso corporal · alto",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-alto.png"
+  },
+  {
+    "id": "face-pull-polea-a-dos-manos",
+    "name": "Face Pull · Polea · a dos manos",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-polea-a-dos-manos.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas",
+    "name": "Hip Thrust · Mancuernas",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-mancuernas.png"
+  },
+  {
+    "id": "elevaci-n-m-quina",
+    "name": "Elevación · Máquina",
+    "category": "Hipertrofia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-m-quina.png"
+  },
+  {
+    "id": "hip-thrust-barra",
+    "name": "Hip Thrust · Barra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-barra.png"
+  },
+  {
+    "id": "dominadas-anillas",
+    "name": "Dominadas · Anillas",
+    "category": "Cardio",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas.png"
+  },
+  {
+    "id": "jal-n-m-quina-a-dos-manos",
+    "name": "Jalón · Máquina · a dos manos",
+    "category": "Corrección",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-m-quina-a-dos-manos.png"
+  },
+  {
+    "id": "jal-n-polea-parcial",
+    "name": "Jalón · Polea · parcial",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-polea-parcial.png"
+  },
+  {
+    "id": "jal-n-banda",
+    "name": "Jalón · Banda",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-banda.png"
+  },
+  {
+    "id": "puente-barra-a-dos-manos",
+    "name": "Puente · Barra · a dos manos",
+    "category": "Fuerza",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-barra-a-dos-manos.png"
+  },
+  {
+    "id": "peso-muerto-barra",
+    "name": "Peso Muerto · Barra",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-neutra",
+    "name": "Peso Muerto · Mancuernas · neutra",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-mancuernas-neutra.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-tempo-3-1-1",
+    "name": "Elevación · Máquina · tempo 3-1-1",
+    "category": "Aislamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-m-quina-tempo-3-1-1.png"
+  },
+  {
+    "id": "soga-soga-isom-trico",
+    "name": "Soga · Soga · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Soga",
+    "level": "principiante",
+    "image": "/assets/exercises/soga-soga-isom-trico.png"
+  },
+  {
+    "id": "abdominales-banco",
+    "name": "Abdominales · Banco",
+    "category": "Potencia",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-banco.png"
+  },
+  {
+    "id": "face-pull-polea-explosivo",
+    "name": "Face Pull · Polea · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-explosivo.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-estrecho",
+    "name": "Dominadas · Peso corporal · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "extensi-n-polea-parcial",
+    "name": "Extensión · Polea · parcial",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-polea-parcial.png"
+  },
+  {
+    "id": "press-m-quina",
+    "name": "Press · Máquina",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-m-quina.png"
+  },
+  {
+    "id": "curl-banda",
+    "name": "Curl · Banda",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-banda.png"
+  },
+  {
+    "id": "soga-soga-bajo",
+    "name": "Soga · Soga · bajo",
+    "category": "Fuerza",
+    "primaryMuscle": "core",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-bajo.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-a-una-mano",
+    "name": "Battle Rope · Cuerdas · a una mano",
+    "category": "Corrección",
+    "primaryMuscle": "core",
+    "equipment": "Cuerdas",
+    "level": "intermedio",
+    "image": "/assets/exercises/battle-rope-cuerdas-a-una-mano.png"
+  },
+  {
+    "id": "fondos-peso-corporal",
+    "name": "Fondos · Peso corporal",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-peso-corporal.png"
+  },
+  {
+    "id": "extensi-n-barra",
+    "name": "Extensión · Barra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-barra.png"
+  },
+  {
+    "id": "curl-polea-con-pausa",
+    "name": "Curl · Polea · con pausa",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-polea-con-pausa.png"
+  },
+  {
+    "id": "fondos-peso-corporal-alto",
+    "name": "Fondos · Peso corporal · alto",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-peso-corporal-alto.png"
+  },
+  {
+    "id": "jal-n-m-quina-tempo-3-1-1",
+    "name": "Jalón · Máquina · tempo 3-1-1",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-m-quina-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-polea",
+    "name": "Press · Polea",
+    "category": "Cardio",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-polea.png"
+  },
+  {
+    "id": "swing-kettlebell-alterno",
+    "name": "Swing · Kettlebell · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/swing-kettlebell-alterno.png"
+  },
+  {
+    "id": "fondos-peso-corporal-estrecho",
+    "name": "Fondos · Peso corporal · estrecho",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "press-kettlebell",
+    "name": "Press · Kettlebell",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-kettlebell.png"
+  },
+  {
+    "id": "press-barra",
+    "name": "Press · Barra",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-barra.png"
+  },
+  {
+    "id": "face-pull-polea-alterno",
+    "name": "Face Pull · Polea · alterno",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-alterno.png"
+  },
+  {
+    "id": "curl-polea-unilateral",
+    "name": "Curl · Polea · unilateral",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-polea-unilateral.png"
+  },
+  {
+    "id": "fondos-anillas-estrecho",
+    "name": "Fondos · Anillas · estrecho",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-anillas-estrecho.png"
+  },
+  {
+    "id": "abdominales-banco-a-una-mano",
+    "name": "Abdominales · Banco · a una mano",
+    "category": "Calistenia",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-banco-a-una-mano.png"
+  },
+  {
+    "id": "hip-thrust-barra-unilateral",
+    "name": "Hip Thrust · Barra · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-barra-unilateral.png"
+  },
+  {
+    "id": "apertura-mancuernas-bajo",
+    "name": "Apertura · Mancuernas · bajo",
+    "category": "Corrección",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-mancuernas-bajo.png"
+  },
+  {
+    "id": "apertura-mancuernas-unilateral",
+    "name": "Apertura · Mancuernas · unilateral",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-mancuernas-unilateral.png"
+  },
+  {
+    "id": "jal-n-m-quina-agarre-supino",
+    "name": "Jalón · Máquina · agarre supino",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "sprint-peso-corporal-bajo",
+    "name": "Sprint · Peso corporal · bajo",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-bajo.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-a-dos-manos",
+    "name": "Battle Rope · Cuerdas · a dos manos",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-a-dos-manos.png"
+  },
+  {
+    "id": "press-mancuernas-a-dos-manos",
+    "name": "Press · Mancuernas · a dos manos",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-mancuernas-a-dos-manos.png"
+  },
+  {
+    "id": "soga-soga-agarre-prono",
+    "name": "Soga · Soga · agarre prono",
+    "category": "Aislamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-agarre-prono.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-parcial",
+    "name": "Battle Rope · Cuerdas · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "full-body",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas-parcial.png"
+  },
+  {
+    "id": "remo-m-quina",
+    "name": "Remo · Máquina",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-m-quina.png"
+  },
+  {
+    "id": "face-pull-polea-alto",
+    "name": "Face Pull · Polea · alto",
+    "category": "Potencia",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-alto.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas",
+    "name": "Elevación · Mancuernas",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-mancuernas.png"
+  },
+  {
+    "id": "sprint-peso-corporal-agarre-prono",
+    "name": "Sprint · Peso corporal · agarre prono",
+    "category": "Cardio",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/sprint-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-tempo-3-1-1",
+    "name": "Elevación · Mancuernas · tempo 3-1-1",
+    "category": "Corrección",
+    "primaryMuscle": "calves",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "remo-barra",
+    "name": "Remo · Barra",
+    "category": "Corrección",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-barra.png"
+  },
+  {
+    "id": "sprint-peso-corporal-alterno",
+    "name": "Sprint · Peso corporal · alterno",
+    "category": "Aislamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-alterno.png"
+  },
+  {
+    "id": "face-pull-banda-isom-trico",
+    "name": "Face Pull · Banda · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-banda-isom-trico.png"
+  },
+  {
+    "id": "elevaci-n-barra",
+    "name": "Elevación · Barra",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-barra.png"
+  },
+  {
+    "id": "apertura-mancuernas-a-una-mano",
+    "name": "Apertura · Mancuernas · a una mano",
+    "category": "Fuerza",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/apertura-mancuernas-a-una-mano.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-agarre-prono",
+    "name": "Dominadas · Peso corporal · agarre prono",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "jal-n-m-quina-isom-trico",
+    "name": "Jalón · Máquina · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-m-quina-isom-trico.png"
+  },
+  {
+    "id": "dominadas-anillas-agarre-supino",
+    "name": "Dominadas · Anillas · agarre supino",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-anillas-agarre-supino.png"
+  },
+  {
+    "id": "puente-peso-corporal-isom-trico",
+    "name": "Puente · Peso corporal · isométrico",
+    "category": "Aislamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/puente-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-explosivo",
+    "name": "Battle Rope · Cuerdas · explosivo",
+    "category": "Potencia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas-explosivo.png"
+  },
+  {
+    "id": "remo-barra-agarre-prono",
+    "name": "Remo · Barra · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-barra-agarre-prono.png"
+  },
+  {
+    "id": "swing-kettlebell-estrecho",
+    "name": "Swing · Kettlebell · estrecho",
+    "category": "Estabilidad",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/swing-kettlebell-estrecho.png"
+  },
+  {
+    "id": "puente-barra-tempo-3-1-1",
+    "name": "Puente · Barra · tempo 3-1-1",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-barra-tempo-3-1-1.png"
+  },
+  {
+    "id": "puente-peso-corporal-neutra",
+    "name": "Puente · Peso corporal · neutra",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-peso-corporal-neutra.png"
+  },
+  {
+    "id": "jal-n-m-quina-bajo",
+    "name": "Jalón · Máquina · bajo",
+    "category": "Estabilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-bajo.png"
+  },
+  {
+    "id": "face-pull-polea-con-pausa",
+    "name": "Face Pull · Polea · con pausa",
+    "category": "Condicionamiento",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-polea-con-pausa.png"
+  },
+  {
+    "id": "plancha-peso-corporal-explosivo",
+    "name": "Plancha · Peso corporal · explosivo",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-explosivo.png"
+  },
+  {
+    "id": "press-militar-barra-explosivo",
+    "name": "Press Militar · Barra · explosivo",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-barra-explosivo.png"
+  },
+  {
+    "id": "press-mancuernas-alterno",
+    "name": "Press · Mancuernas · alterno",
+    "category": "Cardio",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-mancuernas-alterno.png"
+  },
+  {
+    "id": "face-pull-banda-unilateral",
+    "name": "Face Pull · Banda · unilateral",
+    "category": "Potencia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-banda-unilateral.png"
+  },
+  {
+    "id": "sprint-peso-corporal-neutra",
+    "name": "Sprint · Peso corporal · neutra",
+    "category": "Calistenia",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-neutra.png"
+  },
+  {
+    "id": "zancada-peso-corporal-unilateral",
+    "name": "Zancada · Peso corporal · unilateral",
+    "category": "Calistenia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-peso-corporal-unilateral.png"
+  },
+  {
+    "id": "curl-polea-tempo-3-1-1",
+    "name": "Curl · Polea · tempo 3-1-1",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-polea-tempo-3-1-1.png"
+  },
+  {
+    "id": "plancha-peso-corporal-tempo-3-1-1",
+    "name": "Plancha · Peso corporal · tempo 3-1-1",
+    "category": "Fuerza",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/plancha-peso-corporal-tempo-3-1-1.png"
+  },
+  {
+    "id": "soga-soga-unilateral",
+    "name": "Soga · Soga · unilateral",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Soga",
+    "level": "avanzado",
+    "image": "/assets/exercises/soga-soga-unilateral.png"
+  },
+  {
+    "id": "swing-kettlebell-tempo-3-1-1",
+    "name": "Swing · Kettlebell · tempo 3-1-1",
+    "category": "Cardio",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/swing-kettlebell-tempo-3-1-1.png"
+  },
+  {
+    "id": "step-up-peso-corporal-a-una-mano",
+    "name": "Step-up · Peso corporal · a una mano",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-estrecho",
+    "name": "Battle Rope · Cuerdas · estrecho",
+    "category": "Calistenia",
+    "primaryMuscle": "full-body",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-estrecho.png"
+  },
+  {
+    "id": "press-militar-mancuernas",
+    "name": "Press Militar · Mancuernas",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-mancuernas.png"
+  },
+  {
+    "id": "extensi-n-barra-alterno",
+    "name": "Extensión · Barra · alterno",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-barra-alterno.png"
+  },
+  {
+    "id": "remo-mancuernas",
+    "name": "Remo · Mancuernas",
+    "category": "Corrección",
+    "primaryMuscle": "lats",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-mancuernas.png"
+  },
+  {
+    "id": "swing-kettlebell-a-dos-manos",
+    "name": "Swing · Kettlebell · a dos manos",
+    "category": "Movilidad",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/swing-kettlebell-a-dos-manos.png"
+  },
+  {
+    "id": "press-polea-estrecho",
+    "name": "Press · Polea · estrecho",
+    "category": "Corrección",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-polea-estrecho.png"
+  },
+  {
+    "id": "press-barra-unilateral",
+    "name": "Press · Barra · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-barra-unilateral.png"
+  },
+  {
+    "id": "curl-barra",
+    "name": "Curl · Barra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-barra.png"
+  },
+  {
+    "id": "dominadas-banda",
+    "name": "Dominadas · Banda",
+    "category": "Cardio",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-banda.png"
+  },
+  {
+    "id": "zancada-mancuernas",
+    "name": "Zancada · Mancuernas",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-mancuernas.png"
+  },
+  {
+    "id": "jal-n-polea-estrecho",
+    "name": "Jalón · Polea · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-polea-estrecho.png"
+  },
+  {
+    "id": "face-pull-banda-alterno",
+    "name": "Face Pull · Banda · alterno",
+    "category": "Fuerza",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-banda-alterno.png"
+  },
+  {
+    "id": "zancada-barra",
+    "name": "Zancada · Barra",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-barra.png"
+  },
+  {
+    "id": "plancha-peso-corporal-estrecho",
+    "name": "Plancha · Peso corporal · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "zancada-mancuernas-isom-trico",
+    "name": "Zancada · Mancuernas · isométrico",
+    "category": "Aislamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "jal-n-m-quina-con-pausa",
+    "name": "Jalón · Máquina · con pausa",
+    "category": "Fuerza",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-con-pausa.png"
+  },
+  {
+    "id": "hip-thrust-m-quina",
+    "name": "Hip Thrust · Máquina",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-m-quina.png"
+  },
+  {
+    "id": "hip-thrust-barra-isom-trico",
+    "name": "Hip Thrust · Barra · isométrico",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-isom-trico.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-a-dos-manos",
+    "name": "Dominadas · Peso corporal · a dos manos",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-peso-corporal-a-dos-manos.png"
+  },
+  {
+    "id": "press-militar-barra-a-una-mano",
+    "name": "Press Militar · Barra · a una mano",
+    "category": "Condicionamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-barra-a-una-mano.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-con-pausa",
+    "name": "Elevación · Mancuernas · con pausa",
+    "category": "Aislamiento",
+    "primaryMuscle": "calves",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-mancuernas-con-pausa.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-agarre-supino",
+    "name": "Hip Thrust · Máquina · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "zancada-barra-neutra",
+    "name": "Zancada · Barra · neutra",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-barra-neutra.png"
+  },
+  {
+    "id": "press-militar-mancuernas-explosivo",
+    "name": "Press Militar · Mancuernas · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-explosivo.png"
+  },
+  {
+    "id": "face-pull-polea-tempo-3-1-1",
+    "name": "Face Pull · Polea · tempo 3-1-1",
+    "category": "Cardio",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-polea-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-kettlebell-bajo",
+    "name": "Press · Kettlebell · bajo",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-kettlebell-bajo.png"
+  },
+  {
+    "id": "jal-n-polea-alto",
+    "name": "Jalón · Polea · alto",
+    "category": "Aislamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-polea-alto.png"
+  },
+  {
+    "id": "curl-polea-neutra",
+    "name": "Curl · Polea · neutra",
+    "category": "Calistenia",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-polea-neutra.png"
+  },
+  {
+    "id": "hip-thrust-barra-con-pausa",
+    "name": "Hip Thrust · Barra · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-barra-con-pausa.png"
+  },
+  {
+    "id": "jal-n-banda-a-una-mano",
+    "name": "Jalón · Banda · a una mano",
+    "category": "Corrección",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-a-una-mano.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-estrecho",
+    "name": "Hip Thrust · Mancuernas · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-mancuernas-estrecho.png"
+  },
+  {
+    "id": "press-militar-mancuernas-estrecho",
+    "name": "Press Militar · Mancuernas · estrecho",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-estrecho.png"
+  },
+  {
+    "id": "zancada-mancuernas-explosivo",
+    "name": "Zancada · Mancuernas · explosivo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-mancuernas-explosivo.png"
+  },
+  {
+    "id": "curl-mancuernas-a-una-mano",
+    "name": "Curl · Mancuernas · a una mano",
+    "category": "Calistenia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-mancuernas-a-una-mano.png"
+  },
+  {
+    "id": "plancha-peso-corporal-agarre-supino",
+    "name": "Plancha · Peso corporal · agarre supino",
+    "category": "Aislamiento",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "step-up-peso-corporal-con-pausa",
+    "name": "Step-up · Peso corporal · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-con-pausa",
+    "name": "Elevación · Máquina · con pausa",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-m-quina-con-pausa.png"
+  },
+  {
+    "id": "extensi-n-polea-agarre-supino",
+    "name": "Extensión · Polea · agarre supino",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-polea-agarre-supino.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-agarre-supino",
+    "name": "Peso Muerto · Mancuernas · agarre supino",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "salto-en-caja-caja-neutra",
+    "name": "Salto en Caja · Caja · neutra",
+    "category": "Cardio",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "principiante",
+    "image": "/assets/exercises/salto-en-caja-caja-neutra.png"
+  },
+  {
+    "id": "jal-n-polea-bajo",
+    "name": "Jalón · Polea · bajo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-polea-bajo.png"
+  },
+  {
+    "id": "step-up-peso-corporal-parcial",
+    "name": "Step-up · Peso corporal · parcial",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-peso-corporal-parcial.png"
+  },
+  {
+    "id": "apertura-mancuernas-alterno",
+    "name": "Apertura · Mancuernas · alterno",
+    "category": "Hipertrofia",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-mancuernas-alterno.png"
+  },
+  {
+    "id": "fondos-anillas-a-dos-manos",
+    "name": "Fondos · Anillas · a dos manos",
+    "category": "Movilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-anillas-a-dos-manos.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell-estrecho",
+    "name": "Peso Muerto · Kettlebell · estrecho",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-kettlebell-estrecho.png"
+  },
+  {
+    "id": "dominadas-anillas-con-pausa",
+    "name": "Dominadas · Anillas · con pausa",
+    "category": "Movilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-anillas-con-pausa.png"
+  },
+  {
+    "id": "press-polea-alto",
+    "name": "Press · Polea · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-polea-alto.png"
+  },
+  {
+    "id": "apertura-polea",
+    "name": "Apertura · Polea",
+    "category": "Calistenia",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-polea.png"
+  },
+  {
+    "id": "remo-barra-a-dos-manos",
+    "name": "Remo · Barra · a dos manos",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/remo-barra-a-dos-manos.png"
+  },
+  {
+    "id": "soga-soga-neutra",
+    "name": "Soga · Soga · neutra",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Soga",
+    "level": "avanzado",
+    "image": "/assets/exercises/soga-soga-neutra.png"
+  },
+  {
+    "id": "salto-en-caja-caja-agarre-prono",
+    "name": "Salto en Caja · Caja · agarre prono",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "principiante",
+    "image": "/assets/exercises/salto-en-caja-caja-agarre-prono.png"
+  },
+  {
+    "id": "salto-en-caja-caja-parcial",
+    "name": "Salto en Caja · Caja · parcial",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-parcial.png"
+  },
+  {
+    "id": "jal-n-polea-a-dos-manos",
+    "name": "Jalón · Polea · a dos manos",
+    "category": "Potencia",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-polea-a-dos-manos.png"
+  },
+  {
+    "id": "remo-m-quina-bajo",
+    "name": "Remo · Máquina · bajo",
+    "category": "Estabilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-m-quina-bajo.png"
+  },
+  {
+    "id": "remo-barra-parcial",
+    "name": "Remo · Barra · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-barra-parcial.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal",
+    "name": "Elevación · Peso corporal",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-peso-corporal.png"
+  },
+  {
+    "id": "step-up-kettlebell-explosivo",
+    "name": "Step-up · Kettlebell · explosivo",
+    "category": "Aislamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-explosivo.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-alto",
+    "name": "Hip Thrust · Máquina · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-m-quina-alto.png"
+  },
+  {
+    "id": "abdominales-m-quina-alterno",
+    "name": "Abdominales · Máquina · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-m-quina-alterno.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-alto",
+    "name": "Battle Rope · Cuerdas · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "core",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas-alto.png"
+  },
+  {
+    "id": "jal-n-m-quina-alto",
+    "name": "Jalón · Máquina · alto",
+    "category": "Calistenia",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-alto.png"
+  },
+  {
+    "id": "remo-mancuernas-isom-trico",
+    "name": "Remo · Mancuernas · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "abdominales-m-quina-a-una-mano",
+    "name": "Abdominales · Máquina · a una mano",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-m-quina-a-una-mano.png"
+  },
+  {
+    "id": "jal-n-m-quina-estrecho",
+    "name": "Jalón · Máquina · estrecho",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-estrecho.png"
+  },
+  {
+    "id": "dominadas-anillas-parcial",
+    "name": "Dominadas · Anillas · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-anillas-parcial.png"
+  },
+  {
+    "id": "jal-n-m-quina-parcial",
+    "name": "Jalón · Máquina · parcial",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-m-quina-parcial.png"
+  },
+  {
+    "id": "curl-mancuernas-agarre-prono",
+    "name": "Curl · Mancuernas · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-mancuernas-agarre-prono.png"
+  },
+  {
+    "id": "peso-muerto-barra-tempo-3-1-1",
+    "name": "Peso Muerto · Barra · tempo 3-1-1",
+    "category": "Corrección",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-barra-tempo-3-1-1.png"
+  },
+  {
+    "id": "apertura-mancuernas-agarre-supino",
+    "name": "Apertura · Mancuernas · agarre supino",
+    "category": "Corrección",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/apertura-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "extensi-n-polea-estrecho",
+    "name": "Extensión · Polea · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-polea-estrecho.png"
+  },
+  {
+    "id": "plancha-peso-corporal-bajo",
+    "name": "Plancha · Peso corporal · bajo",
+    "category": "Movilidad",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/plancha-peso-corporal-bajo.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-explosivo",
+    "name": "Elevación · Mancuernas · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "calves",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-mancuernas-explosivo.png"
+  },
+  {
+    "id": "dominadas-anillas-explosivo",
+    "name": "Dominadas · Anillas · explosivo",
+    "category": "Cardio",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas-explosivo.png"
+  },
+  {
+    "id": "step-up-kettlebell-agarre-prono",
+    "name": "Step-up · Kettlebell · agarre prono",
+    "category": "Movilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-agarre-prono.png"
+  },
+  {
+    "id": "sentadilla-barra",
+    "name": "Sentadilla · Barra",
+    "category": "Aislamiento",
+    "primaryMuscle": "quads",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-barra.png"
+  },
+  {
+    "id": "curl-banda-agarre-supino",
+    "name": "Curl · Banda · agarre supino",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-banda-agarre-supino.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-alto",
+    "name": "Hip Thrust · Mancuernas · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-mancuernas-alto.png"
+  },
+  {
+    "id": "curl-banda-tempo-3-1-1",
+    "name": "Curl · Banda · tempo 3-1-1",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-banda-tempo-3-1-1.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-isom-trico",
+    "name": "Hip Thrust · Máquina · isométrico",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-m-quina-isom-trico.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-alterno",
+    "name": "Sentadilla · Mancuernas · alterno",
+    "category": "Aislamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/sentadilla-mancuernas-alterno.png"
+  },
+  {
+    "id": "plancha-peso-corporal-parcial",
+    "name": "Plancha · Peso corporal · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-parcial.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-explosivo",
+    "name": "Hip Thrust · Mancuernas · explosivo",
+    "category": "Aislamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-mancuernas-explosivo.png"
+  },
+  {
+    "id": "extensi-n-barra-agarre-supino",
+    "name": "Extensión · Barra · agarre supino",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-barra-agarre-supino.png"
+  },
+  {
+    "id": "jal-n-polea-agarre-prono",
+    "name": "Jalón · Polea · agarre prono",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-polea-agarre-prono.png"
+  },
+  {
+    "id": "hip-thrust-barra-estrecho",
+    "name": "Hip Thrust · Barra · estrecho",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-estrecho.png"
+  },
+  {
+    "id": "swing-kettlebell-agarre-supino",
+    "name": "Swing · Kettlebell · agarre supino",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/swing-kettlebell-agarre-supino.png"
+  },
+  {
+    "id": "plancha-peso-corporal-neutra",
+    "name": "Plancha · Peso corporal · neutra",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/plancha-peso-corporal-neutra.png"
+  },
+  {
+    "id": "peso-muerto-barra-isom-trico",
+    "name": "Peso Muerto · Barra · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-barra-isom-trico.png"
+  },
+  {
+    "id": "abdominales-m-quina-a-dos-manos",
+    "name": "Abdominales · Máquina · a dos manos",
+    "category": "Fuerza",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-m-quina-a-dos-manos.png"
+  },
+  {
+    "id": "zancada-peso-corporal-bajo",
+    "name": "Zancada · Peso corporal · bajo",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-peso-corporal-bajo.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-explosivo",
+    "name": "Hip Thrust · Máquina · explosivo",
+    "category": "Fuerza",
+    "primaryMuscle": "glutes",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-m-quina-explosivo.png"
+  },
+  {
+    "id": "apertura-mancuernas-alto",
+    "name": "Apertura · Mancuernas · alto",
+    "category": "Calistenia",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-mancuernas-alto.png"
+  },
+  {
+    "id": "face-pull-banda-explosivo",
+    "name": "Face Pull · Banda · explosivo",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-banda-explosivo.png"
+  },
+  {
+    "id": "zancada-barra-alto",
+    "name": "Zancada · Barra · alto",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-barra-alto.png"
+  },
+  {
+    "id": "apertura-m-quina",
+    "name": "Apertura · Máquina",
+    "category": "Calistenia",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-m-quina.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell-neutra",
+    "name": "Peso Muerto · Kettlebell · neutra",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-kettlebell-neutra.png"
+  },
+  {
+    "id": "extensi-n-banda",
+    "name": "Extensión · Banda",
+    "category": "Hipertrofia",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-banda.png"
+  },
+  {
+    "id": "curl-barra-con-pausa",
+    "name": "Curl · Barra · con pausa",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-barra-con-pausa.png"
+  },
+  {
+    "id": "swing-kettlebell-bajo",
+    "name": "Swing · Kettlebell · bajo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/swing-kettlebell-bajo.png"
+  },
+  {
+    "id": "remo-m-quina-agarre-supino",
+    "name": "Remo · Máquina · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/remo-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "apertura-polea-agarre-supino",
+    "name": "Apertura · Polea · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-polea-agarre-supino.png"
+  },
+  {
+    "id": "step-up-mancuernas-estrecho",
+    "name": "Step-up · Mancuernas · estrecho",
+    "category": "Estabilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-mancuernas-estrecho.png"
+  },
+  {
+    "id": "remo-m-quina-parcial",
+    "name": "Remo · Máquina · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-m-quina-parcial.png"
+  },
+  {
+    "id": "press-m-quina-estrecho",
+    "name": "Press · Máquina · estrecho",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-m-quina-estrecho.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal",
+    "name": "Sentadilla · Peso corporal",
+    "category": "Aislamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-peso-corporal.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-con-pausa",
+    "name": "Abdominales · Peso corporal · con pausa",
+    "category": "Potencia",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "salto-en-caja-caja-bajo",
+    "name": "Salto en Caja · Caja · bajo",
+    "category": "Movilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-bajo.png"
+  },
+  {
+    "id": "jal-n-polea-neutra",
+    "name": "Jalón · Polea · neutra",
+    "category": "Movilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-polea-neutra.png"
+  },
+  {
+    "id": "curl-mancuernas-alterno",
+    "name": "Curl · Mancuernas · alterno",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-mancuernas-alterno.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-con-pausa",
+    "name": "Dominadas · Peso corporal · con pausa",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "elevaci-n-barra-isom-trico",
+    "name": "Elevación · Barra · isométrico",
+    "category": "Cardio",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-barra-isom-trico.png"
+  },
+  {
+    "id": "sprint-peso-corporal-explosivo",
+    "name": "Sprint · Peso corporal · explosivo",
+    "category": "Estabilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-explosivo.png"
+  },
+  {
+    "id": "sentadilla-kettlebell",
+    "name": "Sentadilla · Kettlebell",
+    "category": "Cardio",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell.png"
+  },
+  {
+    "id": "step-up-kettlebell-parcial",
+    "name": "Step-up · Kettlebell · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-parcial.png"
+  },
+  {
+    "id": "dominadas-banda-tempo-3-1-1",
+    "name": "Dominadas · Banda · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-banda-tempo-3-1-1.png"
+  },
+  {
+    "id": "step-up-kettlebell-bajo",
+    "name": "Step-up · Kettlebell · bajo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-kettlebell-bajo.png"
+  },
+  {
+    "id": "apertura-m-quina-agarre-prono",
+    "name": "Apertura · Máquina · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-m-quina-agarre-prono.png"
+  },
+  {
+    "id": "dominadas-anillas-tempo-3-1-1",
+    "name": "Dominadas · Anillas · tempo 3-1-1",
+    "category": "Aislamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas-tempo-3-1-1.png"
+  },
+  {
+    "id": "soga-soga-estrecho",
+    "name": "Soga · Soga · estrecho",
+    "category": "Calistenia",
+    "primaryMuscle": "core",
+    "equipment": "Soga",
+    "level": "avanzado",
+    "image": "/assets/exercises/soga-soga-estrecho.png"
+  },
+  {
+    "id": "press-kettlebell-tempo-3-1-1",
+    "name": "Press · Kettlebell · tempo 3-1-1",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-kettlebell-tempo-3-1-1.png"
+  },
+  {
+    "id": "abdominales-banco-explosivo",
+    "name": "Abdominales · Banco · explosivo",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-banco-explosivo.png"
+  },
+  {
+    "id": "plancha-peso-corporal-a-una-mano",
+    "name": "Plancha · Peso corporal · a una mano",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "salto-en-caja-caja-isom-trico",
+    "name": "Salto en Caja · Caja · isométrico",
+    "category": "Corrección",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "principiante",
+    "image": "/assets/exercises/salto-en-caja-caja-isom-trico.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-unilateral",
+    "name": "Sentadilla · Mancuernas · unilateral",
+    "category": "Estabilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-mancuernas-unilateral.png"
+  },
+  {
+    "id": "step-up-kettlebell-alterno",
+    "name": "Step-up · Kettlebell · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/step-up-kettlebell-alterno.png"
+  },
+  {
+    "id": "swing-kettlebell-explosivo",
+    "name": "Swing · Kettlebell · explosivo",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/swing-kettlebell-explosivo.png"
+  },
+  {
+    "id": "apertura-m-quina-estrecho",
+    "name": "Apertura · Máquina · estrecho",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-m-quina-estrecho.png"
+  },
+  {
+    "id": "press-militar-barra-a-dos-manos",
+    "name": "Press Militar · Barra · a dos manos",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-barra-a-dos-manos.png"
+  },
+  {
+    "id": "fondos-anillas-parcial",
+    "name": "Fondos · Anillas · parcial",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-anillas-parcial.png"
+  },
+  {
+    "id": "press-militar-barra-tempo-3-1-1",
+    "name": "Press Militar · Barra · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-barra-tempo-3-1-1.png"
+  },
+  {
+    "id": "fondos-barra-a-dos-manos",
+    "name": "Fondos · Barra · a dos manos",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-barra-a-dos-manos.png"
+  },
+  {
+    "id": "apertura-mancuernas-isom-trico",
+    "name": "Apertura · Mancuernas · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/apertura-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-a-dos-manos",
+    "name": "Abdominales · Peso corporal · a dos manos",
+    "category": "Aislamiento",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-peso-corporal-a-dos-manos.png"
+  },
+  {
+    "id": "step-up-kettlebell-neutra",
+    "name": "Step-up · Kettlebell · neutra",
+    "category": "Estabilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-kettlebell-neutra.png"
+  },
+  {
+    "id": "face-pull-polea-isom-trico",
+    "name": "Face Pull · Polea · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-isom-trico.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-unilateral",
+    "name": "Battle Rope · Cuerdas · unilateral",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas-unilateral.png"
+  },
+  {
+    "id": "apertura-mancuernas-explosivo",
+    "name": "Apertura · Mancuernas · explosivo",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-mancuernas-explosivo.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-agarre-prono",
+    "name": "Sentadilla · Peso corporal · agarre prono",
+    "category": "Aislamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "face-pull-banda-alto",
+    "name": "Face Pull · Banda · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-banda-alto.png"
+  },
+  {
+    "id": "abdominales-banco-unilateral",
+    "name": "Abdominales · Banco · unilateral",
+    "category": "Corrección",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-banco-unilateral.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-parcial",
+    "name": "Abdominales · Peso corporal · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-peso-corporal-parcial.png"
+  },
+  {
+    "id": "extensi-n-mancuernas",
+    "name": "Extensión · Mancuernas",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-mancuernas.png"
+  },
+  {
+    "id": "abdominales-m-quina-estrecho",
+    "name": "Abdominales · Máquina · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-m-quina-estrecho.png"
+  },
+  {
+    "id": "fondos-anillas-explosivo",
+    "name": "Fondos · Anillas · explosivo",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-anillas-explosivo.png"
+  },
+  {
+    "id": "face-pull-banda-estrecho",
+    "name": "Face Pull · Banda · estrecho",
+    "category": "Estabilidad",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-banda-estrecho.png"
+  },
+  {
+    "id": "apertura-m-quina-tempo-3-1-1",
+    "name": "Apertura · Máquina · tempo 3-1-1",
+    "category": "Corrección",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/apertura-m-quina-tempo-3-1-1.png"
+  },
+  {
+    "id": "peso-muerto-barra-neutra",
+    "name": "Peso Muerto · Barra · neutra",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-neutra.png"
+  },
+  {
+    "id": "hip-thrust-barra-tempo-3-1-1",
+    "name": "Hip Thrust · Barra · tempo 3-1-1",
+    "category": "Cardio",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-tempo-3-1-1.png"
+  },
+  {
+    "id": "puente-peso-corporal-a-una-mano",
+    "name": "Puente · Peso corporal · a una mano",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "fondos-barra-alterno",
+    "name": "Fondos · Barra · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-barra-alterno.png"
+  },
+  {
+    "id": "jal-n-polea-a-una-mano",
+    "name": "Jalón · Polea · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-polea-a-una-mano.png"
+  },
+  {
+    "id": "zancada-kettlebell",
+    "name": "Zancada · Kettlebell",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell.png"
+  },
+  {
+    "id": "press-m-quina-alto",
+    "name": "Press · Máquina · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/press-m-quina-alto.png"
+  },
+  {
+    "id": "press-polea-neutra",
+    "name": "Press · Polea · neutra",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-polea-neutra.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal-alto",
+    "name": "Elevación · Peso corporal · alto",
+    "category": "Aislamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-peso-corporal-alto.png"
+  },
+  {
+    "id": "fondos-anillas-alto",
+    "name": "Fondos · Anillas · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-anillas-alto.png"
+  },
+  {
+    "id": "salto-en-caja-caja-a-una-mano",
+    "name": "Salto en Caja · Caja · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-a-una-mano.png"
+  },
+  {
+    "id": "curl-polea-a-una-mano",
+    "name": "Curl · Polea · a una mano",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-polea-a-una-mano.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell-agarre-supino",
+    "name": "Peso Muerto · Kettlebell · agarre supino",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-kettlebell-agarre-supino.png"
+  },
+  {
+    "id": "puente-barra-isom-trico",
+    "name": "Puente · Barra · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-barra-isom-trico.png"
+  },
+  {
+    "id": "dominadas-anillas-alterno",
+    "name": "Dominadas · Anillas · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas-alterno.png"
+  },
+  {
+    "id": "step-up-peso-corporal-estrecho",
+    "name": "Step-up · Peso corporal · estrecho",
+    "category": "Aislamiento",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-alterno",
+    "name": "Hip Thrust · Mancuernas · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-mancuernas-alterno.png"
+  },
+  {
+    "id": "press-militar-mancuernas-unilateral",
+    "name": "Press Militar · Mancuernas · unilateral",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-unilateral.png"
+  },
+  {
+    "id": "salto-en-caja-caja-a-dos-manos",
+    "name": "Salto en Caja · Caja · a dos manos",
+    "category": "Estabilidad",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "principiante",
+    "image": "/assets/exercises/salto-en-caja-caja-a-dos-manos.png"
+  },
+  {
+    "id": "plancha-peso-corporal-alto",
+    "name": "Plancha · Peso corporal · alto",
+    "category": "Fuerza",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/plancha-peso-corporal-alto.png"
+  },
+  {
+    "id": "fondos-barra-isom-trico",
+    "name": "Fondos · Barra · isométrico",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-barra-isom-trico.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-parcial",
+    "name": "Sentadilla · Peso corporal · parcial",
+    "category": "Potencia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-peso-corporal-parcial.png"
+  },
+  {
+    "id": "fondos-peso-corporal-bajo",
+    "name": "Fondos · Peso corporal · bajo",
+    "category": "Corrección",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-peso-corporal-bajo.png"
+  },
+  {
+    "id": "jal-n-m-quina-agarre-prono",
+    "name": "Jalón · Máquina · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-m-quina-agarre-prono.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-a-dos-manos",
+    "name": "Hip Thrust · Máquina · a dos manos",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-m-quina-a-dos-manos.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-unilateral",
+    "name": "Sentadilla · Kettlebell · unilateral",
+    "category": "Corrección",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-unilateral.png"
+  },
+  {
+    "id": "salto-en-caja-caja-con-pausa",
+    "name": "Salto en Caja · Caja · con pausa",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-con-pausa.png"
+  },
+  {
+    "id": "salto-en-caja-caja-agarre-supino",
+    "name": "Salto en Caja · Caja · agarre supino",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "principiante",
+    "image": "/assets/exercises/salto-en-caja-caja-agarre-supino.png"
+  },
+  {
+    "id": "apertura-polea-alto",
+    "name": "Apertura · Polea · alto",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-polea-alto.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-agarre-supino",
+    "name": "Battle Rope · Cuerdas · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-agarre-supino.png"
+  },
+  {
+    "id": "curl-polea-agarre-prono",
+    "name": "Curl · Polea · agarre prono",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-polea-agarre-prono.png"
+  },
+  {
+    "id": "jal-n-banda-parcial",
+    "name": "Jalón · Banda · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/jal-n-banda-parcial.png"
+  },
+  {
+    "id": "zancada-kettlebell-parcial",
+    "name": "Zancada · Kettlebell · parcial",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell-parcial.png"
+  },
+  {
+    "id": "hip-thrust-barra-agarre-prono",
+    "name": "Hip Thrust · Barra · agarre prono",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-barra-agarre-prono.png"
+  },
+  {
+    "id": "peso-muerto-barra-bajo",
+    "name": "Peso Muerto · Barra · bajo",
+    "category": "Fuerza",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-bajo.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-isom-trico",
+    "name": "Battle Rope · Cuerdas · isométrico",
+    "category": "Fuerza",
+    "primaryMuscle": "full-body",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-isom-trico.png"
+  },
+  {
+    "id": "face-pull-polea-estrecho",
+    "name": "Face Pull · Polea · estrecho",
+    "category": "Movilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-polea-estrecho.png"
+  },
+  {
+    "id": "extensi-n-barra-a-una-mano",
+    "name": "Extensión · Barra · a una mano",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-barra-a-una-mano.png"
+  },
+  {
+    "id": "curl-polea-alto",
+    "name": "Curl · Polea · alto",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-polea-alto.png"
+  },
+  {
+    "id": "swing-kettlebell-con-pausa",
+    "name": "Swing · Kettlebell · con pausa",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/swing-kettlebell-con-pausa.png"
+  },
+  {
+    "id": "dominadas-banda-explosivo",
+    "name": "Dominadas · Banda · explosivo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-banda-explosivo.png"
+  },
+  {
+    "id": "remo-barra-agarre-supino",
+    "name": "Remo · Barra · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "lats",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-barra-agarre-supino.png"
+  },
+  {
+    "id": "hip-thrust-barra-alterno",
+    "name": "Hip Thrust · Barra · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-barra-alterno.png"
+  },
+  {
+    "id": "press-mancuernas-explosivo",
+    "name": "Press · Mancuernas · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-mancuernas-explosivo.png"
+  },
+  {
+    "id": "curl-mancuernas-agarre-supino",
+    "name": "Curl · Mancuernas · agarre supino",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "sentadilla-barra-a-dos-manos",
+    "name": "Sentadilla · Barra · a dos manos",
+    "category": "Hipertrofia",
+    "primaryMuscle": "legs",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-barra-a-dos-manos.png"
+  },
+  {
+    "id": "curl-barra-alto",
+    "name": "Curl · Barra · alto",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-barra-alto.png"
+  },
+  {
+    "id": "remo-polea-alto",
+    "name": "Remo · Polea · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-polea-alto.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-neutra",
+    "name": "Sentadilla · Peso corporal · neutra",
+    "category": "Aislamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-peso-corporal-neutra.png"
+  },
+  {
+    "id": "remo-barra-estrecho",
+    "name": "Remo · Barra · estrecho",
+    "category": "Movilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-barra-estrecho.png"
+  },
+  {
+    "id": "press-militar-mancuernas-alterno",
+    "name": "Press Militar · Mancuernas · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-alterno.png"
+  },
+  {
+    "id": "zancada-peso-corporal-estrecho",
+    "name": "Zancada · Peso corporal · estrecho",
+    "category": "Corrección",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-alto",
+    "name": "Extensión · Mancuernas · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-mancuernas-alto.png"
+  },
+  {
+    "id": "face-pull-banda-a-una-mano",
+    "name": "Face Pull · Banda · a una mano",
+    "category": "Condicionamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-banda-a-una-mano.png"
+  },
+  {
+    "id": "jal-n-banda-alterno",
+    "name": "Jalón · Banda · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-alterno.png"
+  },
+  {
+    "id": "dominadas-anillas-a-dos-manos",
+    "name": "Dominadas · Anillas · a dos manos",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas-a-dos-manos.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-tempo-3-1-1",
+    "name": "Battle Rope · Cuerdas · tempo 3-1-1",
+    "category": "Fuerza",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "intermedio",
+    "image": "/assets/exercises/battle-rope-cuerdas-tempo-3-1-1.png"
+  },
+  {
+    "id": "swing-kettlebell-alto",
+    "name": "Swing · Kettlebell · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/swing-kettlebell-alto.png"
+  },
+  {
+    "id": "zancada-mancuernas-a-dos-manos",
+    "name": "Zancada · Mancuernas · a dos manos",
+    "category": "Fuerza",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-mancuernas-a-dos-manos.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-explosivo",
+    "name": "Sentadilla · Peso corporal · explosivo",
+    "category": "Movilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-peso-corporal-explosivo.png"
+  },
+  {
+    "id": "curl-barra-bajo",
+    "name": "Curl · Barra · bajo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-barra-bajo.png"
+  },
+  {
+    "id": "fondos-anillas-alterno",
+    "name": "Fondos · Anillas · alterno",
+    "category": "Aislamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-anillas-alterno.png"
+  },
+  {
+    "id": "zancada-kettlebell-explosivo",
+    "name": "Zancada · Kettlebell · explosivo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell-explosivo.png"
+  },
+  {
+    "id": "fondos-barra-explosivo",
+    "name": "Fondos · Barra · explosivo",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-barra-explosivo.png"
+  },
+  {
+    "id": "press-militar-barra-neutra",
+    "name": "Press Militar · Barra · neutra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-barra-neutra.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-unilateral",
+    "name": "Sentadilla · Peso corporal · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-peso-corporal-unilateral.png"
+  },
+  {
+    "id": "fondos-barra-unilateral",
+    "name": "Fondos · Barra · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-barra-unilateral.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-unilateral",
+    "name": "Abdominales · Peso corporal · unilateral",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-peso-corporal-unilateral.png"
+  },
+  {
+    "id": "salto-en-caja-caja-explosivo",
+    "name": "Salto en Caja · Caja · explosivo",
+    "category": "Fuerza",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "avanzado",
+    "image": "/assets/exercises/salto-en-caja-caja-explosivo.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-agarre-supino",
+    "name": "Abdominales · Peso corporal · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "fondos-peso-corporal-agarre-prono",
+    "name": "Fondos · Peso corporal · agarre prono",
+    "category": "Potencia",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "sentadilla-barra-explosivo",
+    "name": "Sentadilla · Barra · explosivo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-barra-explosivo.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-agarre-prono",
+    "name": "Elevación · Máquina · agarre prono",
+    "category": "Movilidad",
+    "primaryMuscle": "calves",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-m-quina-agarre-prono.png"
+  },
+  {
+    "id": "peso-muerto-barra-unilateral",
+    "name": "Peso Muerto · Barra · unilateral",
+    "category": "Aislamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-barra-unilateral.png"
+  },
+  {
+    "id": "swing-kettlebell-isom-trico",
+    "name": "Swing · Kettlebell · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/swing-kettlebell-isom-trico.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-alterno",
+    "name": "Elevación · Mancuernas · alterno",
+    "category": "Estabilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-mancuernas-alterno.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-neutra",
+    "name": "Abdominales · Peso corporal · neutra",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-peso-corporal-neutra.png"
+  },
+  {
+    "id": "elevaci-n-barra-con-pausa",
+    "name": "Elevación · Barra · con pausa",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-barra-con-pausa.png"
+  },
+  {
+    "id": "zancada-mancuernas-alterno",
+    "name": "Zancada · Mancuernas · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-mancuernas-alterno.png"
+  },
+  {
+    "id": "jal-n-polea-tempo-3-1-1",
+    "name": "Jalón · Polea · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-polea-tempo-3-1-1.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-explosivo",
+    "name": "Sentadilla · Kettlebell · explosivo",
+    "category": "Corrección",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-kettlebell-explosivo.png"
+  },
+  {
+    "id": "dominadas-anillas-unilateral",
+    "name": "Dominadas · Anillas · unilateral",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-anillas-unilateral.png"
+  },
+  {
+    "id": "curl-barra-isom-trico",
+    "name": "Curl · Barra · isométrico",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-barra-isom-trico.png"
+  },
+  {
+    "id": "apertura-m-quina-isom-trico",
+    "name": "Apertura · Máquina · isométrico",
+    "category": "Movilidad",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-m-quina-isom-trico.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-isom-trico",
+    "name": "Elevación · Mancuernas · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "sprint-peso-corporal-isom-trico",
+    "name": "Sprint · Peso corporal · isométrico",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sprint-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "puente-peso-corporal-parcial",
+    "name": "Puente · Peso corporal · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/puente-peso-corporal-parcial.png"
+  },
+  {
+    "id": "hip-thrust-barra-bajo",
+    "name": "Hip Thrust · Barra · bajo",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-barra-bajo.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-unilateral",
+    "name": "Hip Thrust · Máquina · unilateral",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-m-quina-unilateral.png"
+  },
+  {
+    "id": "dominadas-anillas-neutra",
+    "name": "Dominadas · Anillas · neutra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-anillas-neutra.png"
+  },
+  {
+    "id": "curl-banda-alterno",
+    "name": "Curl · Banda · alterno",
+    "category": "Calistenia",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-banda-alterno.png"
+  },
+  {
+    "id": "extensi-n-polea-a-una-mano",
+    "name": "Extensión · Polea · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-polea-a-una-mano.png"
+  },
+  {
+    "id": "press-militar-barra-alterno",
+    "name": "Press Militar · Barra · alterno",
+    "category": "Fuerza",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-barra-alterno.png"
+  },
+  {
+    "id": "dominadas-banda-bajo",
+    "name": "Dominadas · Banda · bajo",
+    "category": "Fuerza",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-banda-bajo.png"
+  },
+  {
+    "id": "extensi-n-barra-unilateral",
+    "name": "Extensión · Barra · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-barra-unilateral.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-bajo",
+    "name": "Extensión · Mancuernas · bajo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-mancuernas-bajo.png"
+  },
+  {
+    "id": "zancada-peso-corporal-alto",
+    "name": "Zancada · Peso corporal · alto",
+    "category": "Hipertrofia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-peso-corporal-alto.png"
+  },
+  {
+    "id": "face-pull-polea-bajo",
+    "name": "Face Pull · Polea · bajo",
+    "category": "Condicionamiento",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-bajo.png"
+  },
+  {
+    "id": "fondos-peso-corporal-parcial",
+    "name": "Fondos · Peso corporal · parcial",
+    "category": "Condicionamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-peso-corporal-parcial.png"
+  },
+  {
+    "id": "face-pull-polea-a-una-mano",
+    "name": "Face Pull · Polea · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-polea-a-una-mano.png"
+  },
+  {
+    "id": "zancada-mancuernas-unilateral",
+    "name": "Zancada · Mancuernas · unilateral",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-mancuernas-unilateral.png"
+  },
+  {
+    "id": "abdominales-banco-alterno",
+    "name": "Abdominales · Banco · alterno",
+    "category": "Aislamiento",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "avanzado",
+    "image": "/assets/exercises/abdominales-banco-alterno.png"
+  },
+  {
+    "id": "hip-thrust-barra-agarre-supino",
+    "name": "Hip Thrust · Barra · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-agarre-supino.png"
+  },
+  {
+    "id": "swing-kettlebell-agarre-prono",
+    "name": "Swing · Kettlebell · agarre prono",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/swing-kettlebell-agarre-prono.png"
+  },
+  {
+    "id": "peso-muerto-barra-parcial",
+    "name": "Peso Muerto · Barra · parcial",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-parcial.png"
+  },
+  {
+    "id": "extensi-n-banda-bajo",
+    "name": "Extensión · Banda · bajo",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-banda-bajo.png"
+  },
+  {
+    "id": "remo-mancuernas-neutra",
+    "name": "Remo · Mancuernas · neutra",
+    "category": "Corrección",
+    "primaryMuscle": "lats",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-mancuernas-neutra.png"
+  },
+  {
+    "id": "salto-en-caja-caja-unilateral",
+    "name": "Salto en Caja · Caja · unilateral",
+    "category": "Fuerza",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-unilateral.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-parcial",
+    "name": "Extensión · Mancuernas · parcial",
+    "category": "Potencia",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-mancuernas-parcial.png"
+  },
+  {
+    "id": "swing-kettlebell-unilateral",
+    "name": "Swing · Kettlebell · unilateral",
+    "category": "Aislamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/swing-kettlebell-unilateral.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-isom-trico",
+    "name": "Dominadas · Peso corporal · isométrico",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "soga-soga-a-dos-manos",
+    "name": "Soga · Soga · a dos manos",
+    "category": "Corrección",
+    "primaryMuscle": "core",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-a-dos-manos.png"
+  },
+  {
+    "id": "press-militar-m-quina-unilateral",
+    "name": "Press Militar · Máquina · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "triceps",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-m-quina-unilateral.png"
+  },
+  {
+    "id": "elevaci-n-barra-explosivo",
+    "name": "Elevación · Barra · explosivo",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-barra-explosivo.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-tempo-3-1-1",
+    "name": "Peso Muerto · Mancuernas · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-m-quina-a-dos-manos",
+    "name": "Press · Máquina · a dos manos",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-m-quina-a-dos-manos.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-con-pausa",
+    "name": "Sentadilla · Mancuernas · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-mancuernas-con-pausa.png"
+  },
+  {
+    "id": "fondos-anillas-tempo-3-1-1",
+    "name": "Fondos · Anillas · tempo 3-1-1",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-anillas-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-barra-explosivo",
+    "name": "Press · Barra · explosivo",
+    "category": "Movilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-barra-explosivo.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell-bajo",
+    "name": "Peso Muerto · Kettlebell · bajo",
+    "category": "Calistenia",
+    "primaryMuscle": "lower-back",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-kettlebell-bajo.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-a-una-mano",
+    "name": "Elevación · Máquina · a una mano",
+    "category": "Hipertrofia",
+    "primaryMuscle": "calves",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-m-quina-a-una-mano.png"
+  },
+  {
+    "id": "salto-en-caja-caja-tempo-3-1-1",
+    "name": "Salto en Caja · Caja · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Caja",
+    "level": "avanzado",
+    "image": "/assets/exercises/salto-en-caja-caja-tempo-3-1-1.png"
+  },
+  {
+    "id": "salto-en-caja-caja-alterno",
+    "name": "Salto en Caja · Caja · alterno",
+    "category": "Corrección",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-alterno.png"
+  },
+  {
+    "id": "step-up-kettlebell-tempo-3-1-1",
+    "name": "Step-up · Kettlebell · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-kettlebell-tempo-3-1-1.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-a-una-mano",
+    "name": "Hip Thrust · Máquina · a una mano",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-m-quina-a-una-mano.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-alterno",
+    "name": "Peso Muerto · Mancuernas · alterno",
+    "category": "Estabilidad",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-mancuernas-alterno.png"
+  },
+  {
+    "id": "peso-muerto-barra-estrecho",
+    "name": "Peso Muerto · Barra · estrecho",
+    "category": "Aislamiento",
+    "primaryMuscle": "lower-back",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-estrecho.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-agarre-prono",
+    "name": "Battle Rope · Cuerdas · agarre prono",
+    "category": "Fuerza",
+    "primaryMuscle": "shoulders",
+    "equipment": "Cuerdas",
+    "level": "principiante",
+    "image": "/assets/exercises/battle-rope-cuerdas-agarre-prono.png"
+  },
+  {
+    "id": "dominadas-anillas-a-una-mano",
+    "name": "Dominadas · Anillas · a una mano",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-anillas-a-una-mano.png"
+  },
+  {
+    "id": "extensi-n-banda-alterno",
+    "name": "Extensión · Banda · alterno",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-banda-alterno.png"
+  },
+  {
+    "id": "step-up-peso-corporal-agarre-supino",
+    "name": "Step-up · Peso corporal · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/step-up-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-bajo",
+    "name": "Sentadilla · Kettlebell · bajo",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-bajo.png"
+  },
+  {
+    "id": "dominadas-banda-alto",
+    "name": "Dominadas · Banda · alto",
+    "category": "Calistenia",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-banda-alto.png"
+  },
+  {
+    "id": "press-militar-barra-parcial",
+    "name": "Press Militar · Barra · parcial",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-barra-parcial.png"
+  },
+  {
+    "id": "puente-barra-parcial",
+    "name": "Puente · Barra · parcial",
+    "category": "Hipertrofia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-barra-parcial.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-a-una-mano",
+    "name": "Elevación · Mancuernas · a una mano",
+    "category": "Condicionamiento",
+    "primaryMuscle": "calves",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-mancuernas-a-una-mano.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-con-pausa",
+    "name": "Sentadilla · Kettlebell · con pausa",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-con-pausa.png"
+  },
+  {
+    "id": "face-pull-banda-agarre-prono",
+    "name": "Face Pull · Banda · agarre prono",
+    "category": "Condicionamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-banda-agarre-prono.png"
+  },
+  {
+    "id": "zancada-kettlebell-con-pausa",
+    "name": "Zancada · Kettlebell · con pausa",
+    "category": "Condicionamiento",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell-con-pausa.png"
+  },
+  {
+    "id": "curl-banda-neutra",
+    "name": "Curl · Banda · neutra",
+    "category": "Estabilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-banda-neutra.png"
+  },
+  {
+    "id": "press-militar-kettlebell",
+    "name": "Press Militar · Kettlebell",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-kettlebell.png"
+  },
+  {
+    "id": "remo-mancuernas-alto",
+    "name": "Remo · Mancuernas · alto",
+    "category": "Potencia",
+    "primaryMuscle": "lats",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-mancuernas-alto.png"
+  },
+  {
+    "id": "soga-soga-con-pausa",
+    "name": "Soga · Soga · con pausa",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-con-pausa.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-unilateral",
+    "name": "Elevación · Máquina · unilateral",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-m-quina-unilateral.png"
+  },
+  {
+    "id": "swing-kettlebell-a-una-mano",
+    "name": "Swing · Kettlebell · a una mano",
+    "category": "Fuerza",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/swing-kettlebell-a-una-mano.png"
+  },
+  {
+    "id": "elevaci-n-barra-alto",
+    "name": "Elevación · Barra · alto",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-barra-alto.png"
+  },
+  {
+    "id": "press-m-quina-parcial",
+    "name": "Press · Máquina · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-m-quina-parcial.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-agarre-supino",
+    "name": "Elevación · Mancuernas · agarre supino",
+    "category": "Movilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "dominadas-anillas-estrecho",
+    "name": "Dominadas · Anillas · estrecho",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-anillas-estrecho.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-tempo-3-1-1",
+    "name": "Extensión · Mancuernas · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "step-up-kettlebell-a-una-mano",
+    "name": "Step-up · Kettlebell · a una mano",
+    "category": "Movilidad",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-kettlebell-a-una-mano.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-neutra",
+    "name": "Hip Thrust · Mancuernas · neutra",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-mancuernas-neutra.png"
+  },
+  {
+    "id": "puente-barra-unilateral",
+    "name": "Puente · Barra · unilateral",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-barra-unilateral.png"
+  },
+  {
+    "id": "sprint-peso-corporal-parcial",
+    "name": "Sprint · Peso corporal · parcial",
+    "category": "Fuerza",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-parcial.png"
+  },
+  {
+    "id": "extensi-n-banda-agarre-prono",
+    "name": "Extensión · Banda · agarre prono",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-banda-agarre-prono.png"
+  },
+  {
+    "id": "abdominales-banco-tempo-3-1-1",
+    "name": "Abdominales · Banco · tempo 3-1-1",
+    "category": "Corrección",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-banco-tempo-3-1-1.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal-con-pausa",
+    "name": "Elevación · Peso corporal · con pausa",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "plancha-peso-corporal-a-dos-manos",
+    "name": "Plancha · Peso corporal · a dos manos",
+    "category": "Calistenia",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-a-dos-manos.png"
+  },
+  {
+    "id": "apertura-mancuernas-parcial",
+    "name": "Apertura · Mancuernas · parcial",
+    "category": "Calistenia",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-mancuernas-parcial.png"
+  },
+  {
+    "id": "puente-barra-alto",
+    "name": "Puente · Barra · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/puente-barra-alto.png"
+  },
+  {
+    "id": "abdominales-banco-isom-trico",
+    "name": "Abdominales · Banco · isométrico",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-banco-isom-trico.png"
+  },
+  {
+    "id": "curl-banda-a-una-mano",
+    "name": "Curl · Banda · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-banda-a-una-mano.png"
+  },
+  {
+    "id": "hip-thrust-m-quina-parcial",
+    "name": "Hip Thrust · Máquina · parcial",
+    "category": "Movilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/hip-thrust-m-quina-parcial.png"
+  },
+  {
+    "id": "soga-soga-tempo-3-1-1",
+    "name": "Soga · Soga · tempo 3-1-1",
+    "category": "Condicionamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Soga",
+    "level": "principiante",
+    "image": "/assets/exercises/soga-soga-tempo-3-1-1.png"
+  },
+  {
+    "id": "fondos-anillas-agarre-prono",
+    "name": "Fondos · Anillas · agarre prono",
+    "category": "Movilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Anillas",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-anillas-agarre-prono.png"
+  },
+  {
+    "id": "soga-soga-explosivo",
+    "name": "Soga · Soga · explosivo",
+    "category": "Potencia",
+    "primaryMuscle": "full-body",
+    "equipment": "Soga",
+    "level": "avanzado",
+    "image": "/assets/exercises/soga-soga-explosivo.png"
+  },
+  {
+    "id": "extensi-n-barra-parcial",
+    "name": "Extensión · Barra · parcial",
+    "category": "Movilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-barra-parcial.png"
+  },
+  {
+    "id": "remo-polea-explosivo",
+    "name": "Remo · Polea · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-polea-explosivo.png"
+  },
+  {
+    "id": "press-militar-kettlebell-explosivo",
+    "name": "Press Militar · Kettlebell · explosivo",
+    "category": "Hipertrofia",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-kettlebell-explosivo.png"
+  },
+  {
+    "id": "puente-barra-bajo",
+    "name": "Puente · Barra · bajo",
+    "category": "Calistenia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/puente-barra-bajo.png"
+  },
+  {
+    "id": "press-militar-m-quina-agarre-supino",
+    "name": "Press Militar · Máquina · agarre supino",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "press-polea-explosivo",
+    "name": "Press · Polea · explosivo",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Polea",
+    "level": "principiante",
+    "image": "/assets/exercises/press-polea-explosivo.png"
+  },
+  {
+    "id": "press-m-quina-agarre-prono",
+    "name": "Press · Máquina · agarre prono",
+    "category": "Potencia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-m-quina-agarre-prono.png"
+  },
+  {
+    "id": "remo-polea-alterno",
+    "name": "Remo · Polea · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-polea-alterno.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-a-dos-manos",
+    "name": "Extensión · Mancuernas · a dos manos",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-mancuernas-a-dos-manos.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-alto",
+    "name": "Sentadilla · Kettlebell · alto",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-alto.png"
+  },
+  {
+    "id": "sentadilla-barra-parcial",
+    "name": "Sentadilla · Barra · parcial",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-barra-parcial.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-a-una-mano",
+    "name": "Dominadas · Peso corporal · a una mano",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "press-militar-barra-alto",
+    "name": "Press Militar · Barra · alto",
+    "category": "Aislamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-barra-alto.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-a-una-mano",
+    "name": "Abdominales · Peso corporal · a una mano",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "extensi-n-banda-alto",
+    "name": "Extensión · Banda · alto",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/extensi-n-banda-alto.png"
+  },
+  {
+    "id": "step-up-mancuernas-isom-trico",
+    "name": "Step-up · Mancuernas · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "remo-mancuernas-unilateral",
+    "name": "Remo · Mancuernas · unilateral",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-mancuernas-unilateral.png"
+  },
+  {
+    "id": "dominadas-anillas-agarre-prono",
+    "name": "Dominadas · Anillas · agarre prono",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/dominadas-anillas-agarre-prono.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-alterno",
+    "name": "Extensión · Mancuernas · alterno",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-mancuernas-alterno.png"
+  },
+  {
+    "id": "plancha-peso-corporal-con-pausa",
+    "name": "Plancha · Peso corporal · con pausa",
+    "category": "Corrección",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/plancha-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "peso-muerto-kettlebell-tempo-3-1-1",
+    "name": "Peso Muerto · Kettlebell · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-kettlebell-tempo-3-1-1.png"
+  },
+  {
+    "id": "jal-n-banda-a-dos-manos",
+    "name": "Jalón · Banda · a dos manos",
+    "category": "Calistenia",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-banda-a-dos-manos.png"
+  },
+  {
+    "id": "jal-n-banda-explosivo",
+    "name": "Jalón · Banda · explosivo",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-explosivo.png"
+  },
+  {
+    "id": "zancada-barra-bajo",
+    "name": "Zancada · Barra · bajo",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-barra-bajo.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-agarre-prono",
+    "name": "Hip Thrust · Mancuernas · agarre prono",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/hip-thrust-mancuernas-agarre-prono.png"
+  },
+  {
+    "id": "zancada-kettlebell-estrecho",
+    "name": "Zancada · Kettlebell · estrecho",
+    "category": "Condicionamiento",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-kettlebell-estrecho.png"
+  },
+  {
+    "id": "step-up-peso-corporal-alterno",
+    "name": "Step-up · Peso corporal · alterno",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-peso-corporal-alterno.png"
+  },
+  {
+    "id": "press-mancuernas-agarre-supino",
+    "name": "Press · Mancuernas · agarre supino",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-agarre-supino",
+    "name": "Elevación · Máquina · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "dominadas-banda-parcial",
+    "name": "Dominadas · Banda · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/dominadas-banda-parcial.png"
+  },
+  {
+    "id": "zancada-peso-corporal-isom-trico",
+    "name": "Zancada · Peso corporal · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "curl-mancuernas-isom-trico",
+    "name": "Curl · Mancuernas · isométrico",
+    "category": "Fuerza",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-con-pausa",
+    "name": "Extensión · Mancuernas · con pausa",
+    "category": "Estabilidad",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-mancuernas-con-pausa.png"
+  },
+  {
+    "id": "step-up-mancuernas-a-una-mano",
+    "name": "Step-up · Mancuernas · a una mano",
+    "category": "Aislamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-a-una-mano.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-parcial",
+    "name": "Peso Muerto · Mancuernas · parcial",
+    "category": "Movilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-parcial.png"
+  },
+  {
+    "id": "zancada-kettlebell-a-dos-manos",
+    "name": "Zancada · Kettlebell · a dos manos",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-kettlebell-a-dos-manos.png"
+  },
+  {
+    "id": "jal-n-banda-agarre-prono",
+    "name": "Jalón · Banda · agarre prono",
+    "category": "Aislamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-agarre-prono.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-isom-trico",
+    "name": "Sentadilla · Kettlebell · isométrico",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-isom-trico.png"
+  },
+  {
+    "id": "zancada-peso-corporal-agarre-supino",
+    "name": "Zancada · Peso corporal · agarre supino",
+    "category": "Calistenia",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "zancada-kettlebell-agarre-prono",
+    "name": "Zancada · Kettlebell · agarre prono",
+    "category": "Estabilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell-agarre-prono.png"
+  },
+  {
+    "id": "elevaci-n-barra-bajo",
+    "name": "Elevación · Barra · bajo",
+    "category": "Cardio",
+    "primaryMuscle": "calves",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-barra-bajo.png"
+  },
+  {
+    "id": "remo-mancuernas-tempo-3-1-1",
+    "name": "Remo · Mancuernas · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/remo-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "zancada-barra-a-dos-manos",
+    "name": "Zancada · Barra · a dos manos",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-barra-a-dos-manos.png"
+  },
+  {
+    "id": "apertura-polea-parcial",
+    "name": "Apertura · Polea · parcial",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-polea-parcial.png"
+  },
+  {
+    "id": "remo-m-quina-tempo-3-1-1",
+    "name": "Remo · Máquina · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-m-quina-tempo-3-1-1.png"
+  },
+  {
+    "id": "jal-n-banda-agarre-supino",
+    "name": "Jalón · Banda · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-agarre-supino.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal-parcial",
+    "name": "Elevación · Peso corporal · parcial",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-peso-corporal-parcial.png"
+  },
+  {
+    "id": "face-pull-banda-tempo-3-1-1",
+    "name": "Face Pull · Banda · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/face-pull-banda-tempo-3-1-1.png"
+  },
+  {
+    "id": "extensi-n-banda-neutra",
+    "name": "Extensión · Banda · neutra",
+    "category": "Aislamiento",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-banda-neutra.png"
+  },
+  {
+    "id": "press-militar-m-quina-explosivo",
+    "name": "Press Militar · Máquina · explosivo",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-m-quina-explosivo.png"
+  },
+  {
+    "id": "puente-peso-corporal-tempo-3-1-1",
+    "name": "Puente · Peso corporal · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-peso-corporal-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-militar-kettlebell-a-una-mano",
+    "name": "Press Militar · Kettlebell · a una mano",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-kettlebell-a-una-mano.png"
+  },
+  {
+    "id": "fondos-barra-agarre-prono",
+    "name": "Fondos · Barra · agarre prono",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-barra-agarre-prono.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-explosivo",
+    "name": "Peso Muerto · Mancuernas · explosivo",
+    "category": "Corrección",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-mancuernas-explosivo.png"
+  },
+  {
+    "id": "press-kettlebell-neutra",
+    "name": "Press · Kettlebell · neutra",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/press-kettlebell-neutra.png"
+  },
+  {
+    "id": "dominadas-banda-unilateral",
+    "name": "Dominadas · Banda · unilateral",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-banda-unilateral.png"
+  },
+  {
+    "id": "extensi-n-mancuernas-isom-trico",
+    "name": "Extensión · Mancuernas · isométrico",
+    "category": "Cardio",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-alterno",
+    "name": "Sentadilla · Kettlebell · alterno",
+    "category": "Condicionamiento",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-alterno.png"
+  },
+  {
+    "id": "curl-barra-parcial",
+    "name": "Curl · Barra · parcial",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-barra-parcial.png"
+  },
+  {
+    "id": "dominadas-banda-neutra",
+    "name": "Dominadas · Banda · neutra",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-banda-neutra.png"
+  },
+  {
+    "id": "jal-n-banda-estrecho",
+    "name": "Jalón · Banda · estrecho",
+    "category": "Movilidad",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-banda-estrecho.png"
+  },
+  {
+    "id": "step-up-kettlebell-a-dos-manos",
+    "name": "Step-up · Kettlebell · a dos manos",
+    "category": "Cardio",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-a-dos-manos.png"
+  },
+  {
+    "id": "peso-muerto-barra-con-pausa",
+    "name": "Peso Muerto · Barra · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-barra-con-pausa.png"
+  },
+  {
+    "id": "curl-banda-alto",
+    "name": "Curl · Banda · alto",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/curl-banda-alto.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-estrecho",
+    "name": "Sentadilla · Mancuernas · estrecho",
+    "category": "Condicionamiento",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/sentadilla-mancuernas-estrecho.png"
+  },
+  {
+    "id": "remo-polea-parcial",
+    "name": "Remo · Polea · parcial",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-polea-parcial.png"
+  },
+  {
+    "id": "press-barra-alto",
+    "name": "Press · Barra · alto",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-barra-alto.png"
+  },
+  {
+    "id": "jal-n-m-quina-explosivo",
+    "name": "Jalón · Máquina · explosivo",
+    "category": "Potencia",
+    "primaryMuscle": "biceps",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-m-quina-explosivo.png"
+  },
+  {
+    "id": "peso-muerto-mancuernas-bajo",
+    "name": "Peso Muerto · Mancuernas · bajo",
+    "category": "Potencia",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-mancuernas-bajo.png"
+  },
+  {
+    "id": "salto-en-caja-caja-alto",
+    "name": "Salto en Caja · Caja · alto",
+    "category": "Aislamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Caja",
+    "level": "intermedio",
+    "image": "/assets/exercises/salto-en-caja-caja-alto.png"
+  },
+  {
+    "id": "extensi-n-banda-con-pausa",
+    "name": "Extensión · Banda · con pausa",
+    "category": "Calistenia",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/extensi-n-banda-con-pausa.png"
+  },
+  {
+    "id": "battle-rope-cuerdas-alterno",
+    "name": "Battle Rope · Cuerdas · alterno",
+    "category": "Hipertrofia",
+    "primaryMuscle": "full-body",
+    "equipment": "Cuerdas",
+    "level": "avanzado",
+    "image": "/assets/exercises/battle-rope-cuerdas-alterno.png"
+  },
+  {
+    "id": "press-militar-mancuernas-bajo",
+    "name": "Press Militar · Mancuernas · bajo",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-bajo.png"
+  },
+  {
+    "id": "zancada-mancuernas-parcial",
+    "name": "Zancada · Mancuernas · parcial",
+    "category": "Hipertrofia",
+    "primaryMuscle": "glutes",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-mancuernas-parcial.png"
+  },
+  {
+    "id": "elevaci-n-mancuernas-agarre-prono",
+    "name": "Elevación · Mancuernas · agarre prono",
+    "category": "Movilidad",
+    "primaryMuscle": "shoulders",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-mancuernas-agarre-prono.png"
+  },
+  {
+    "id": "soga-soga-alto",
+    "name": "Soga · Soga · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Soga",
+    "level": "intermedio",
+    "image": "/assets/exercises/soga-soga-alto.png"
+  },
+  {
+    "id": "step-up-mancuernas-a-dos-manos",
+    "name": "Step-up · Mancuernas · a dos manos",
+    "category": "Cardio",
+    "primaryMuscle": "legs",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-a-dos-manos.png"
+  },
+  {
+    "id": "curl-mancuernas-unilateral",
+    "name": "Curl · Mancuernas · unilateral",
+    "category": "Hipertrofia",
+    "primaryMuscle": "biceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-mancuernas-unilateral.png"
+  },
+  {
+    "id": "face-pull-banda-agarre-supino",
+    "name": "Face Pull · Banda · agarre supino",
+    "category": "Aislamiento",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/face-pull-banda-agarre-supino.png"
+  },
+  {
+    "id": "press-mancuernas-tempo-3-1-1",
+    "name": "Press · Mancuernas · tempo 3-1-1",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "extensi-n-banda-parcial",
+    "name": "Extensión · Banda · parcial",
+    "category": "Fuerza",
+    "primaryMuscle": "triceps",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/extensi-n-banda-parcial.png"
+  },
+  {
+    "id": "face-pull-banda-a-dos-manos",
+    "name": "Face Pull · Banda · a dos manos",
+    "category": "Calistenia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-banda-a-dos-manos.png"
+  },
+  {
+    "id": "remo-polea-con-pausa",
+    "name": "Remo · Polea · con pausa",
+    "category": "Fuerza",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/remo-polea-con-pausa.png"
+  },
+  {
+    "id": "hip-thrust-barra-explosivo",
+    "name": "Hip Thrust · Barra · explosivo",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-explosivo.png"
+  },
+  {
+    "id": "apertura-polea-con-pausa",
+    "name": "Apertura · Polea · con pausa",
+    "category": "Calistenia",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/apertura-polea-con-pausa.png"
+  },
+  {
+    "id": "zancada-barra-tempo-3-1-1",
+    "name": "Zancada · Barra · tempo 3-1-1",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-barra-tempo-3-1-1.png"
+  },
+  {
+    "id": "curl-banda-con-pausa",
+    "name": "Curl · Banda · con pausa",
+    "category": "Condicionamiento",
+    "primaryMuscle": "biceps",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-banda-con-pausa.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-alterno",
+    "name": "Sentadilla · Peso corporal · alterno",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/sentadilla-peso-corporal-alterno.png"
+  },
+  {
+    "id": "hip-thrust-barra-a-una-mano",
+    "name": "Hip Thrust · Barra · a una mano",
+    "category": "Potencia",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-barra-a-una-mano.png"
+  },
+  {
+    "id": "elevaci-n-barra-agarre-supino",
+    "name": "Elevación · Barra · agarre supino",
+    "category": "Movilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-barra-agarre-supino.png"
+  },
+  {
+    "id": "elevaci-n-barra-a-dos-manos",
+    "name": "Elevación · Barra · a dos manos",
+    "category": "Fuerza",
+    "primaryMuscle": "calves",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/elevaci-n-barra-a-dos-manos.png"
+  },
+  {
+    "id": "press-militar-mancuernas-agarre-supino",
+    "name": "Press Militar · Mancuernas · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "triceps",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/press-militar-mancuernas-agarre-supino.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-alto",
+    "name": "Elevación · Máquina · alto",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-m-quina-alto.png"
+  },
+  {
+    "id": "step-up-kettlebell-agarre-supino",
+    "name": "Step-up · Kettlebell · agarre supino",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-kettlebell-agarre-supino.png"
+  },
+  {
+    "id": "peso-muerto-barra-agarre-supino",
+    "name": "Peso Muerto · Barra · agarre supino",
+    "category": "Condicionamiento",
+    "primaryMuscle": "posterior-chain",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/peso-muerto-barra-agarre-supino.png"
+  },
+  {
+    "id": "jal-n-banda-tempo-3-1-1",
+    "name": "Jalón · Banda · tempo 3-1-1",
+    "category": "Hipertrofia",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "avanzado",
+    "image": "/assets/exercises/jal-n-banda-tempo-3-1-1.png"
+  },
+  {
+    "id": "fondos-barra-neutra",
+    "name": "Fondos · Barra · neutra",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-barra-neutra.png"
+  },
+  {
+    "id": "press-kettlebell-a-dos-manos",
+    "name": "Press · Kettlebell · a dos manos",
+    "category": "Potencia",
+    "primaryMuscle": "chest",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-kettlebell-a-dos-manos.png"
+  },
+  {
+    "id": "press-m-quina-isom-trico",
+    "name": "Press · Máquina · isométrico",
+    "category": "Aislamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-m-quina-isom-trico.png"
+  },
+  {
+    "id": "fondos-peso-corporal-isom-trico",
+    "name": "Fondos · Peso corporal · isométrico",
+    "category": "Estabilidad",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/fondos-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "abdominales-banco-a-dos-manos",
+    "name": "Abdominales · Banco · a dos manos",
+    "category": "Calistenia",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-banco-a-dos-manos.png"
+  },
+  {
+    "id": "peso-muerto-barra-a-dos-manos",
+    "name": "Peso Muerto · Barra · a dos manos",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-a-dos-manos.png"
+  },
+  {
+    "id": "fondos-anillas-a-una-mano",
+    "name": "Fondos · Anillas · a una mano",
+    "category": "Corrección",
+    "primaryMuscle": "triceps",
+    "equipment": "Anillas",
+    "level": "principiante",
+    "image": "/assets/exercises/fondos-anillas-a-una-mano.png"
+  },
+  {
+    "id": "plancha-peso-corporal-alterno",
+    "name": "Plancha · Peso corporal · alterno",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/plancha-peso-corporal-alterno.png"
+  },
+  {
+    "id": "zancada-kettlebell-tempo-3-1-1",
+    "name": "Zancada · Kettlebell · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-kettlebell-tempo-3-1-1.png"
+  },
+  {
+    "id": "sentadilla-peso-corporal-agarre-supino",
+    "name": "Sentadilla · Peso corporal · agarre supino",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "step-up-kettlebell-isom-trico",
+    "name": "Step-up · Kettlebell · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-kettlebell-isom-trico.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal-bajo",
+    "name": "Elevación · Peso corporal · bajo",
+    "category": "Aislamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-peso-corporal-bajo.png"
+  },
+  {
+    "id": "zancada-peso-corporal-a-una-mano",
+    "name": "Zancada · Peso corporal · a una mano",
+    "category": "Aislamiento",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-peso-corporal-a-una-mano.png"
+  },
+  {
+    "id": "curl-polea-estrecho",
+    "name": "Curl · Polea · estrecho",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/curl-polea-estrecho.png"
+  },
+  {
+    "id": "zancada-peso-corporal-tempo-3-1-1",
+    "name": "Zancada · Peso corporal · tempo 3-1-1",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-peso-corporal-tempo-3-1-1.png"
+  },
+  {
+    "id": "abdominales-m-quina-parcial",
+    "name": "Abdominales · Máquina · parcial",
+    "category": "Estabilidad",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-m-quina-parcial.png"
+  },
+  {
+    "id": "puente-peso-corporal-con-pausa",
+    "name": "Puente · Peso corporal · con pausa",
+    "category": "Estabilidad",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/puente-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "remo-polea-bajo",
+    "name": "Remo · Polea · bajo",
+    "category": "Potencia",
+    "primaryMuscle": "lats",
+    "equipment": "Polea",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-polea-bajo.png"
+  },
+  {
+    "id": "remo-barra-a-una-mano",
+    "name": "Remo · Barra · a una mano",
+    "category": "Corrección",
+    "primaryMuscle": "biceps",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/remo-barra-a-una-mano.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-bajo",
+    "name": "Sentadilla · Mancuernas · bajo",
+    "category": "Calistenia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-mancuernas-bajo.png"
+  },
+  {
+    "id": "step-up-peso-corporal-explosivo",
+    "name": "Step-up · Peso corporal · explosivo",
+    "category": "Corrección",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/step-up-peso-corporal-explosivo.png"
+  },
+  {
+    "id": "sprint-peso-corporal-unilateral",
+    "name": "Sprint · Peso corporal · unilateral",
+    "category": "Aislamiento",
+    "primaryMuscle": "full-body",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/sprint-peso-corporal-unilateral.png"
+  },
+  {
+    "id": "fondos-peso-corporal-con-pausa",
+    "name": "Fondos · Peso corporal · con pausa",
+    "category": "Potencia",
+    "primaryMuscle": "chest",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/fondos-peso-corporal-con-pausa.png"
+  },
+  {
+    "id": "elevaci-n-peso-corporal-agarre-supino",
+    "name": "Elevación · Peso corporal · agarre supino",
+    "category": "Cardio",
+    "primaryMuscle": "calves",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/elevaci-n-peso-corporal-agarre-supino.png"
+  },
+  {
+    "id": "swing-kettlebell-neutra",
+    "name": "Swing · Kettlebell · neutra",
+    "category": "Estabilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Kettlebell",
+    "level": "avanzado",
+    "image": "/assets/exercises/swing-kettlebell-neutra.png"
+  },
+  {
+    "id": "elevaci-n-m-quina-alterno",
+    "name": "Elevación · Máquina · alterno",
+    "category": "Fuerza",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Máquina",
+    "level": "avanzado",
+    "image": "/assets/exercises/elevaci-n-m-quina-alterno.png"
+  },
+  {
+    "id": "press-barra-a-dos-manos",
+    "name": "Press · Barra · a dos manos",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/press-barra-a-dos-manos.png"
+  },
+  {
+    "id": "jal-n-banda-con-pausa",
+    "name": "Jalón · Banda · con pausa",
+    "category": "Condicionamiento",
+    "primaryMuscle": "lats",
+    "equipment": "Banda",
+    "level": "intermedio",
+    "image": "/assets/exercises/jal-n-banda-con-pausa.png"
+  },
+  {
+    "id": "abdominales-banco-alto",
+    "name": "Abdominales · Banco · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "core",
+    "equipment": "Banco",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-banco-alto.png"
+  },
+  {
+    "id": "step-up-peso-corporal-agarre-prono",
+    "name": "Step-up · Peso corporal · agarre prono",
+    "category": "Hipertrofia",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "curl-polea-a-dos-manos",
+    "name": "Curl · Polea · a dos manos",
+    "category": "Movilidad",
+    "primaryMuscle": "biceps",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/curl-polea-a-dos-manos.png"
+  },
+  {
+    "id": "zancada-barra-alterno",
+    "name": "Zancada · Barra · alterno",
+    "category": "Corrección",
+    "primaryMuscle": "legs",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/zancada-barra-alterno.png"
+  },
+  {
+    "id": "press-militar-barra-agarre-prono",
+    "name": "Press Militar · Barra · agarre prono",
+    "category": "Aislamiento",
+    "primaryMuscle": "shoulders",
+    "equipment": "Barra",
+    "level": "avanzado",
+    "image": "/assets/exercises/press-militar-barra-agarre-prono.png"
+  },
+  {
+    "id": "step-up-peso-corporal-neutra",
+    "name": "Step-up · Peso corporal · neutra",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-peso-corporal-neutra.png"
+  },
+  {
+    "id": "sentadilla-kettlebell-estrecho",
+    "name": "Sentadilla · Kettlebell · estrecho",
+    "category": "Corrección",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Kettlebell",
+    "level": "intermedio",
+    "image": "/assets/exercises/sentadilla-kettlebell-estrecho.png"
+  },
+  {
+    "id": "plancha-peso-corporal-unilateral",
+    "name": "Plancha · Peso corporal · unilateral",
+    "category": "Cardio",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "avanzado",
+    "image": "/assets/exercises/plancha-peso-corporal-unilateral.png"
+  },
+  {
+    "id": "step-up-peso-corporal-isom-trico",
+    "name": "Step-up · Peso corporal · isométrico",
+    "category": "Movilidad",
+    "primaryMuscle": "quads",
+    "equipment": "Peso corporal",
+    "level": "principiante",
+    "image": "/assets/exercises/step-up-peso-corporal-isom-trico.png"
+  },
+  {
+    "id": "peso-muerto-barra-alto",
+    "name": "Peso Muerto · Barra · alto",
+    "category": "Movilidad",
+    "primaryMuscle": "glutes",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/peso-muerto-barra-alto.png"
+  },
+  {
+    "id": "face-pull-banda-con-pausa",
+    "name": "Face Pull · Banda · con pausa",
+    "category": "Cardio",
+    "primaryMuscle": "rear-delts",
+    "equipment": "Banda",
+    "level": "principiante",
+    "image": "/assets/exercises/face-pull-banda-con-pausa.png"
+  },
+  {
+    "id": "zancada-peso-corporal-agarre-prono",
+    "name": "Zancada · Peso corporal · agarre prono",
+    "category": "Cardio",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/zancada-peso-corporal-agarre-prono.png"
+  },
+  {
+    "id": "dominadas-peso-corporal-alto",
+    "name": "Dominadas · Peso corporal · alto",
+    "category": "Cardio",
+    "primaryMuscle": "biceps",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/dominadas-peso-corporal-alto.png"
+  },
+  {
+    "id": "peso-muerto-barra-agarre-prono",
+    "name": "Peso Muerto · Barra · agarre prono",
+    "category": "Calistenia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "intermedio",
+    "image": "/assets/exercises/peso-muerto-barra-agarre-prono.png"
+  },
+  {
+    "id": "hip-thrust-mancuernas-tempo-3-1-1",
+    "name": "Hip Thrust · Mancuernas · tempo 3-1-1",
+    "category": "Potencia",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/hip-thrust-mancuernas-tempo-3-1-1.png"
+  },
+  {
+    "id": "press-militar-kettlebell-a-dos-manos",
+    "name": "Press Militar · Kettlebell · a dos manos",
+    "category": "Corrección",
+    "primaryMuscle": "shoulders",
+    "equipment": "Kettlebell",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-kettlebell-a-dos-manos.png"
+  },
+  {
+    "id": "abdominales-peso-corporal-estrecho",
+    "name": "Abdominales · Peso corporal · estrecho",
+    "category": "Hipertrofia",
+    "primaryMuscle": "core",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/abdominales-peso-corporal-estrecho.png"
+  },
+  {
+    "id": "sentadilla-barra-alterno",
+    "name": "Sentadilla · Barra · alterno",
+    "category": "Cardio",
+    "primaryMuscle": "hamstrings",
+    "equipment": "Barra",
+    "level": "principiante",
+    "image": "/assets/exercises/sentadilla-barra-alterno.png"
+  },
+  {
+    "id": "press-militar-m-quina-alto",
+    "name": "Press Militar · Máquina · alto",
+    "category": "Hipertrofia",
+    "primaryMuscle": "shoulders",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/press-militar-m-quina-alto.png"
+  },
+  {
+    "id": "apertura-polea-alterno",
+    "name": "Apertura · Polea · alterno",
+    "category": "Cardio",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-polea-alterno.png"
+  },
+  {
+    "id": "step-up-peso-corporal-bajo",
+    "name": "Step-up · Peso corporal · bajo",
+    "category": "Fuerza",
+    "primaryMuscle": "legs",
+    "equipment": "Peso corporal",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-peso-corporal-bajo.png"
+  },
+  {
+    "id": "abdominales-m-quina-agarre-supino",
+    "name": "Abdominales · Máquina · agarre supino",
+    "category": "Aislamiento",
+    "primaryMuscle": "core",
+    "equipment": "Máquina",
+    "level": "principiante",
+    "image": "/assets/exercises/abdominales-m-quina-agarre-supino.png"
+  },
+  {
+    "id": "step-up-mancuernas-parcial",
+    "name": "Step-up · Mancuernas · parcial",
+    "category": "Condicionamiento",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "intermedio",
+    "image": "/assets/exercises/step-up-mancuernas-parcial.png"
+  },
+  {
+    "id": "apertura-polea-isom-trico",
+    "name": "Apertura · Polea · isométrico",
+    "category": "Aislamiento",
+    "primaryMuscle": "chest",
+    "equipment": "Polea",
+    "level": "avanzado",
+    "image": "/assets/exercises/apertura-polea-isom-trico.png"
+  },
+  {
+    "id": "sentadilla-mancuernas-isom-trico",
+    "name": "Sentadilla · Mancuernas · isométrico",
+    "category": "Potencia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/sentadilla-mancuernas-isom-trico.png"
+  },
+  {
+    "id": "zancada-mancuernas-estrecho",
+    "name": "Zancada · Mancuernas · estrecho",
+    "category": "Calistenia",
+    "primaryMuscle": "quads",
+    "equipment": "Mancuernas",
+    "level": "avanzado",
+    "image": "/assets/exercises/zancada-mancuernas-estrecho.png"
+  }
+]

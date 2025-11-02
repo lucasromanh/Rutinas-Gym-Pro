@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "lastSync": "2025-01-01T10:00:00Z",
+  "payload": {
+    "profile": {
+      "name": "Demo",
+      "goal": "muscle",
+      "level": "intermediate"
+    },
+    "workouts": [],
+    "progress": []
+  }
+}
