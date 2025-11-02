@@ -15,7 +15,8 @@ import { pickRecommendedRoutines } from "@/data/selector";
 
 export default function HomePage() {
   const { profile, bmi, bmiLabel } = useUser();
-  const { routines, history } = useWorkouts();
+  const { routines, history, selectedRoutineId } = useWorkouts();
+  const activeRoutine = routines.find((item) => item.id === selectedRoutineId);
 
   const recommended = useMemo(() => pickRecommendedRoutines(profile, routines), [profile, routines]);
   const totalVolume = history.slice(0, 5).reduce((acc, session) => acc + (session.totalVolume ?? 0), 0);
@@ -54,6 +55,23 @@ export default function HomePage() {
       </Card>
 
       <section className="space-y-4">
+        {activeRoutine && (
+          <Link
+            to={`/workouts/${activeRoutine.id}`}
+            className="block rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-100 hover:shadow-md transition-shadow dark:bg-slate-900"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="text-sm text-slate-600">Rutina activa</div>
+                <div className="text-base font-semibold text-slate-800">{activeRoutine.name}</div>
+                <div className="text-xs text-slate-500">{activeRoutine.sessionsPerWeek} sesiones/semana</div>
+              </div>
+              <div>
+                <img src={activeRoutine.coverImage} alt={activeRoutine.name} className="h-12 w-12 rounded-lg object-cover" />
+              </div>
+            </div>
+          </Link>
+        )}
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold">Rutinas recomendadas</h2>
           <Button variant="ghost" size="sm" className="text-indigo-600" asChild>

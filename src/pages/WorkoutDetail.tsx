@@ -40,7 +40,7 @@ interface EditorSelection {
 export default function WorkoutDetail() {
   const { routineId } = useParams();
   const navigate = useNavigate();
-  const { routines, selectRoutine, selectedRoutineId } = useWorkouts();
+  const { routines, selectRoutine, selectedRoutineId, startTimer, toggleTimerVisible, timerRunning } = useWorkouts();
   const routine = useMemo(() => routines.find((item) => item.id === routineId), [routineId, routines]);
   const exerciseLookup = useMemo(() => new Map(exerciseData.map((exercise) => [exercise.id, exercise])), []);
   const storageKey = routine ? `RoutineOverrides:${routine.id}` : undefined;
@@ -187,6 +187,14 @@ export default function WorkoutDetail() {
               "Activar rutina"
             )}
           </Button>
+          {isSelected && (
+            <Button className="gap-2" onClick={() => {
+              toggleTimerVisible();
+              startTimer();
+            }}>
+              {timerRunning ? "Reanudar" : "Iniciar rutina"}
+            </Button>
+          )}
         </div>
       </div>
 

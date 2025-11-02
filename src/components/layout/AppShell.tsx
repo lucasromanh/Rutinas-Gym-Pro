@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { BottomTabs } from "./BottomTabs";
+import TimerFloating from "@/components/training/TimerFloating";
 
 const onboardingPaths = ["/onboarding"];
 
@@ -27,6 +28,7 @@ export function AppShell() {
         {!hideTabs && <Footer />}
       </div>
       {!hideTabs && <BottomTabs />}
+      <TimerFloating />
     </div>
   );
 }

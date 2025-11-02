@@ -39,6 +39,11 @@ interface WorkoutState {
   selectedRoutineId?: string;
   customWorkouts: CustomWorkout[];
   history: WorkoutSession[];
+  // persisted timer state
+  timerRunning?: boolean;
+  timerVisible?: boolean;
+  timerExpanded?: boolean;
+  elapsedSeconds?: number;
 }
 
 interface WorkoutContextValue extends WorkoutState {
@@ -46,12 +51,26 @@ interface WorkoutContextValue extends WorkoutState {
   addCustomWorkout: (workout: Omit<CustomWorkout, "id">) => void;
   logSession: (session: Omit<WorkoutSession, "id">) => void;
   deleteCustomWorkout: (id: string) => void;
+  // Timer controls (global floating timer)
+  timerRunning: boolean;
+  timerVisible: boolean;
+  timerExpanded: boolean;
+  elapsedSeconds: number;
+  startTimer: () => void;
+  stopTimer: () => void;
+  resetTimer: () => void;
+  toggleTimerVisible: () => void;
+  toggleTimerExpanded: () => void;
 }
 
 const defaultState: WorkoutState = {
   routines: baseRoutines,
   customWorkouts: [],
   history: [],
+  timerRunning: false,
+  timerVisible: false,
+  timerExpanded: false,
+  elapsedSeconds: 0,
 };
 
 function makeId() {
@@ -107,15 +126,62 @@ export function WorkoutProvider({ children }: { children: ReactNode }) {
     }));
   }, []);
 
+  // Timer controls
+  const startTimer = useCallback(() => {
+    setState((prev) => ({ ...prev, timerRunning: true }));
+  }, []);
+
+  const stopTimer = useCallback(() => {
+    setState((prev) => ({ ...prev, timerRunning: false }));
+  }, []);
+
+  const resetTimer = useCallback(() => {
+    setState((prev) => ({ ...prev, elapsedSeconds: 0, timerRunning: false }));
+  }, []);
+
+  const toggleTimerVisible = useCallback(() => {
+    setState((prev) => ({ ...prev, timerVisible: !prev.timerVisible }));
+  }, []);
+
+  const toggleTimerExpanded = useCallback(() => {
+    setState((prev) => ({ ...prev, timerExpanded: !prev.timerExpanded }));
+  }, []);
+
+  // keep elapsedSeconds ticking while timerRunning
+  useEffect(() => {
+    if (!state.timerRunning) return;
+    let mounted = true;
+    const start = Date.now() - (state.elapsedSeconds ?? 0) * 1000;
+    const id = setInterval(() => {
+      if (!mounted) return;
+      const secs = Math.floor((Date.now() - start) / 1000);
+      setState((prev) => ({ ...prev, elapsedSeconds: secs }));
+    }, 1000);
+    return () => {
+      mounted = false;
+      clearInterval(id);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state.timerRunning]);
+
   const value = useMemo<WorkoutContextValue>(
     () => ({
       ...state,
+      timerRunning: Boolean(state.timerRunning),
+      timerVisible: Boolean(state.timerVisible),
+      timerExpanded: Boolean(state.timerExpanded),
+      elapsedSeconds: state.elapsedSeconds ?? 0,
       selectRoutine,
       addCustomWorkout,
       deleteCustomWorkout,
       logSession,
+      startTimer,
+      stopTimer,
+      resetTimer,
+      toggleTimerVisible,
+      toggleTimerExpanded,
     }),
-    [state, selectRoutine, addCustomWorkout, deleteCustomWorkout, logSession],
+    [state, selectRoutine, addCustomWorkout, deleteCustomWorkout, logSession, startTimer, stopTimer, resetTimer, toggleTimerVisible, toggleTimerExpanded],
   );
 
   return <WorkoutContext.Provider value={value}>{children}</WorkoutContext.Provider>;
