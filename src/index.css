@@ -31,3 +31,16 @@ body {
 .dark .glass-panel {
   @apply border-slate-700/60 bg-slate-900/70;
 }
+
+/* Ensure text utility classes that are light in default Tailwind colors become readable
+   when used inside our Card component (which uses a purple background in light mode).
+   This converts common slate-400/500 tokens to dark text in light mode and to
+   light text in dark mode. */
+.card-contrast .text-slate-400,
+.card-contrast .text-slate-500 {
+  @apply text-slate-900;
+}
+.dark .card-contrast .text-slate-400,
+.dark .card-contrast .text-slate-500 {
+  @apply text-slate-100;
+}

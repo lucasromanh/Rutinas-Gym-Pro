@@ -29,7 +29,7 @@ const links = [
 export default function MorePage() {
   return (
     <div className="space-y-6 pb-16">
-      <Card className="flex items-center gap-4 bg-white p-6 shadow-sm dark:bg-slate-900">
+  <Card className="flex items-center gap-4 p-6 shadow-sm dark:bg-slate-900">
         <img src={infoArt} alt="Más" className="h-16 w-16 rounded-2xl" />
         <div>
           <h2 className="text-xl font-semibold">Más opciones</h2>

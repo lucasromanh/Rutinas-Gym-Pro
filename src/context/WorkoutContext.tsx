@@ -20,6 +20,13 @@ export interface WorkoutSession {
   durationMinutes: number;
   totalVolume: number;
   notes?: string;
+  // optional detailed list of exercises performed when the session was logged
+  performedExercises?: Array<{
+    exerciseId: string;
+    name?: string;
+    sets?: number;
+    reps?: string;
+  }>;
 }
 
 export interface CustomWorkout {
@@ -39,6 +46,7 @@ interface WorkoutState {
   selectedRoutineId?: string;
   customWorkouts: CustomWorkout[];
   history: WorkoutSession[];
+  lastWeeklyReset?: string;
   // persisted timer state
   timerRunning?: boolean;
   timerVisible?: boolean;
@@ -49,7 +57,7 @@ interface WorkoutState {
 interface WorkoutContextValue extends WorkoutState {
   selectRoutine: (id: string) => void;
   addCustomWorkout: (workout: Omit<CustomWorkout, "id">) => void;
-  logSession: (session: Omit<WorkoutSession, "id">) => void;
+  logSession: (session: Omit<WorkoutSession, "id">) => string;
   deleteCustomWorkout: (id: string) => void;
   // Timer controls (global floating timer)
   timerRunning: boolean;
@@ -61,6 +69,11 @@ interface WorkoutContextValue extends WorkoutState {
   resetTimer: () => void;
   toggleTimerVisible: () => void;
   toggleTimerExpanded: () => void;
+  // remove history helpers
+  removeHistoryEntryById: (id: string) => void;
+  removeHistoryForRoutineDate: (routineId: string, dateISO: string) => void;
+  // manual reset
+  resetWeeklyProgress: () => void;
 }
 
 const defaultState: WorkoutState = {
@@ -95,6 +108,30 @@ export function WorkoutProvider({ children }: { children: ReactNode }) {
     saveToStorage(STORAGE_KEY, state);
   }, [state]);
 
+  // On mount: perform weekly reset of per-routine progress keys on Sundays once per week
+  useEffect(() => {
+    try {
+      const now = new Date();
+      const sunday = 0;
+      if (now.getDay() === sunday) {
+        const weekIso = `${now.getFullYear()}-W${Math.ceil(((new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate())).getTime() - new Date(Date.UTC(now.getFullYear(),0,1)).getTime())/86400000 + 1)/7)}`;
+        if (state.lastWeeklyReset !== weekIso) {
+          // clear keys starting with RoutineProgress:
+          if (typeof window !== "undefined" && window.localStorage) {
+            const keys = Object.keys(window.localStorage);
+            keys.forEach((k) => {
+              if (k.startsWith("RoutineProgress:")) window.localStorage.removeItem(k);
+            });
+          }
+          setState((prev) => ({ ...prev, lastWeeklyReset: weekIso }));
+        }
+      }
+    } catch (e) {
+      // ignore
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const selectRoutine = useCallback((id: string) => {
     setState((prev) => ({ ...prev, selectedRoutineId: id }));
   }, []);
@@ -117,13 +154,32 @@ export function WorkoutProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const logSession = useCallback((session: Omit<WorkoutSession, "id">) => {
+    const id = makeId();
     setState((prev) => ({
       ...prev,
       history: [
-        { ...session, id: makeId() },
+        { ...session, id },
         ...prev.history,
       ].slice(0, 60),
     }));
+    return id;
+  }, []);
+
+  const removeHistoryEntryById = useCallback((id: string) => {
+    setState((prev) => ({ ...prev, history: prev.history.filter((h) => h.id !== id) }));
+  }, []);
+
+  const removeHistoryForRoutineDate = useCallback((routineId: string, dateISO: string) => {
+    setState((prev) => ({ ...prev, history: prev.history.filter((h) => !(h.routineId === routineId && h.date.slice(0,10) === dateISO)) }));
+  }, []);
+
+  const resetWeeklyProgress = useCallback(() => {
+    if (typeof window !== "undefined" && window.localStorage) {
+      const keys = Object.keys(window.localStorage);
+      keys.forEach((k) => {
+        if (k.startsWith("RoutineProgress:")) window.localStorage.removeItem(k);
+      });
+    }
   }, []);
 
   // Timer controls
@@ -175,6 +231,9 @@ export function WorkoutProvider({ children }: { children: ReactNode }) {
       addCustomWorkout,
       deleteCustomWorkout,
       logSession,
+  removeHistoryEntryById,
+  removeHistoryForRoutineDate,
+  resetWeeklyProgress,
       startTimer,
       stopTimer,
       resetTimer,

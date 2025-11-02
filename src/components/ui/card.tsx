@@ -6,7 +6,10 @@ const Card = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElemen
     <div
       ref={ref}
       className={cn(
-        "rounded-3xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md dark:border-slate-800 dark:bg-slate-900",
+        // Light mode: purple gradient cards for info visibility.
+        // Dark mode: preserve original dark slate background.
+        // `card-contrast` allows overriding lighter text tokens inside cards to ensure legibility.
+        "card-contrast rounded-3xl border border-transparent bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-slate-900 shadow-sm transition-shadow hover:shadow-md dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100",
         className,
       )}
       {...props}

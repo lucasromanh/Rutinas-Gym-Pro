@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { ArrowRightCircle, Flame, Trophy } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -11,6 +11,7 @@ import { Progress } from "@/components/ui/progress";
 import { MetricCard, ProgressRing } from "@/components/charts/ProgressRing";
 import { useUser } from "@/context/UserContext";
 import { useWorkouts, type WorkoutSession } from "@/context/WorkoutContext";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { pickRecommendedRoutines } from "@/data/selector";
 
 export default function HomePage() {
@@ -21,6 +22,8 @@ export default function HomePage() {
   const recommended = useMemo(() => pickRecommendedRoutines(profile, routines), [profile, routines]);
   const totalVolume = history.slice(0, 5).reduce((acc, session) => acc + (session.totalVolume ?? 0), 0);
   const weeklySessions = history.filter((session) => isThisWeek(session.date)).length;
+
+  const [selectedSession, setSelectedSession] = useState<WorkoutSession | null>(null);
 
   return (
     <div className="space-y-6 pb-10">
@@ -43,13 +46,11 @@ export default function HomePage() {
             value={bmi ? bmi.toString() : "-"}
             highlight={bmiLabel}
             helper="Mantén tus progresos actualizando el peso cada semana."
-            className="bg-white backdrop-blur dark:bg-slate-800"
           />
           <MetricCard
             title="Volumen reciente"
             value={`${totalVolume.toLocaleString()} kg`}
             helper="Promedio de tus últimas 5 sesiones registradas."
-            className="bg-white backdrop-blur dark:bg-slate-800"
           />
         </CardContent>
       </Card>
@@ -58,7 +59,7 @@ export default function HomePage() {
         {activeRoutine && (
           <Link
             to={`/workouts/${activeRoutine.id}`}
-            className="block rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-100 hover:shadow-md transition-shadow dark:bg-slate-900 dark:ring-slate-700"
+            className="block rounded-2xl bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white p-4 shadow-sm ring-1 ring-slate-200 hover:shadow-md dark:bg-slate-900 dark:ring-slate-700"
           >
             <div className="flex items-center justify-between">
               <div>
@@ -96,7 +97,7 @@ export default function HomePage() {
                   </div>
                 </CardHeader>
                 <CardContent className="flex items-center justify-between pt-0">
-                  <p className="text-sm text-slate-500 dark:text-slate-200">{routine.summary}</p>
+                  <p className="text-sm text-slate-900 dark:text-slate-100">{routine.summary}</p>
                   <Button variant="primary" size="sm" asChild>
                     <Link to={`/workouts/${routine.id}`} className="flex items-center gap-2">
                       Ver
@@ -110,7 +111,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="rounded-3xl bg-white p-6 shadow-sm dark:bg-slate-900">
+  <section className="rounded-3xl bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white p-6 shadow-sm dark:bg-slate-900">
         <h2 className="text-lg font-semibold">Seguimiento rápido</h2>
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           <Card>
@@ -121,7 +122,7 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <Progress value={Math.min((weeklySessions / (profile?.weeklyFrequency ?? 3)) * 100, 100)} />
-              <p className="mt-2 text-xs text-slate-400 dark:text-slate-200">
+              <p className="mt-2 text-xs text-slate-900 dark:text-slate-100">
                 {weeklySessions} de {profile?.weeklyFrequency ?? 3} sesiones completadas.
               </p>
             </CardContent>
@@ -133,8 +134,8 @@ export default function HomePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-semibold dark:text-slate-100">{calculateStreak(history)} días</p>
-              <p className="text-xs text-slate-400 dark:text-slate-200">Mantén el ritmo para desbloquear logros premium.</p>
+              <p className="text-3xl font-semibold text-slate-900 dark:text-slate-100">{calculateStreak(history)} días</p>
+              <p className="text-xs text-slate-900 dark:text-slate-100">Mantén el ritmo para desbloquear logros premium.</p>
             </CardContent>
           </Card>
           <Card>
@@ -144,18 +145,58 @@ export default function HomePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              {history.length ? (
-                <p className="text-sm text-slate-500 dark:text-slate-200">
-                  {new Date(history[0].date).toLocaleDateString()} · {history[0].durationMinutes} min · {" "}
-                  {history[0].totalVolume.toLocaleString()} kg
-                </p>
-              ) : (
-                <p className="text-sm text-slate-400 dark:text-slate-200">Aún no registraste tus entrenamientos.</p>
-              )}
+                {history.length ? (
+                      (() => {
+                        const last = history[0];
+                        return (
+                          <div onClick={() => setSelectedSession(last)} className="cursor-pointer">
+                            <p className="text-sm text-slate-900 dark:text-slate-100">
+                              {new Date(last.date).toLocaleDateString()} · {last.durationMinutes} min · {last.totalVolume.toLocaleString()} kg
+                            </p>
+                            {last.performedExercises && last.performedExercises.length ? (
+                              <p className="text-xs text-slate-900 dark:text-slate-100 mt-1">
+                                {last.performedExercises.slice(0, 3).map((p) => p.name ?? p.exerciseId).join(", ")}
+                                {last.performedExercises.length > 3 ? ` +${last.performedExercises.length - 3} más` : ""}
+                              </p>
+                            ) : last.notes ? (
+                              <p className="text-xs text-slate-900 dark:text-slate-100 mt-1">{last.notes}</p>
+                            ) : null}
+                          </div>
+                        );
+                      })()
+                    ) : (
+                      <p className="text-sm text-slate-900 dark:text-slate-100">Aún no registraste tus entrenamientos.</p>
+                    )}
             </CardContent>
           </Card>
         </div>
       </section>
+
+      <Dialog open={Boolean(selectedSession)} onOpenChange={(open) => !open && setSelectedSession(null)}>
+        {selectedSession && (
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Registro: {new Date(selectedSession.date).toLocaleDateString()}</DialogTitle>
+            </DialogHeader>
+            <div className="space-y-3">
+              <p className="text-sm">Duración: {selectedSession.durationMinutes} min</p>
+              <p className="text-sm">Volumen: {selectedSession.totalVolume.toLocaleString()} kg</p>
+              <p className="text-sm">Esfuerzo: {selectedSession.perceivedEffort}/10</p>
+              {selectedSession.notes && <p className="text-sm">Notas: {selectedSession.notes}</p>}
+              {selectedSession.performedExercises && selectedSession.performedExercises.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold">Ejercicios realizados</h3>
+                  <ul className="list-disc pl-5 text-sm">
+                    {selectedSession.performedExercises.map((ex) => (
+                      <li key={ex.exerciseId}>{ex.name ?? ex.exerciseId} {ex.sets ? `· ${ex.sets}x${ex.reps ?? ""}` : ""}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        )}
+      </Dialog>
     </div>
   );
 }

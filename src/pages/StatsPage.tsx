@@ -19,7 +19,7 @@ export default function StatsPage() {
 
   return (
     <div className="space-y-6 pb-16">
-      <Card className="flex flex-col gap-4 border-none bg-white shadow-none dark:bg-slate-950">
+  <Card className="flex flex-col gap-4 border-none shadow-none dark:bg-slate-950">
         <div className="flex flex-wrap items-center gap-4 rounded-3xl bg-indigo-50 p-6 dark:bg-indigo-500/10">
           <img src={statsArt} alt="Stats" className="h-16 w-16 rounded-2xl" />
           <div className="space-y-1">
@@ -78,7 +78,7 @@ export default function StatsPage() {
               label="Objetivo semanal"
             />
             <Progress value={Math.min((progress.length / 8) * 100, 100)} />
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-900 dark:text-slate-100">
               Has registrado {progress.length} entradas de progreso. Mantén tu consistencia.
             </p>
           </CardContent>
@@ -91,7 +91,7 @@ export default function StatsPage() {
           <CardContent className="space-y-3 text-sm text-slate-500">
             {progress.slice(0, 4).map((entry) => (
               <div key={entry.id} className="rounded-2xl bg-slate-100 p-3 dark:bg-slate-800">
-                <p className="text-xs uppercase text-slate-400">
+                <p className="text-xs uppercase text-slate-900 dark:text-slate-100">
                   {new Date(entry.date).toLocaleDateString()}
                 </p>
                 <p className="mt-1 font-medium">Peso: {entry.weight ?? "-"} kg</p>

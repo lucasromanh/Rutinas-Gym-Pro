@@ -11,7 +11,7 @@ export default function ProgramPage() {
 
   return (
     <div className="space-y-6 pb-12">
-      <div className="flex items-center gap-4 rounded-3xl bg-white p-6 shadow-sm dark:bg-slate-900">
+  <div className="flex items-center gap-4 rounded-3xl bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white p-6 shadow-sm dark:bg-slate-900">
         <img src={programArt} alt="Programas" className="h-16 w-16 rounded-2xl object-cover" />
         <div>
           <h2 className="text-xl font-semibold">Explora programas</h2>

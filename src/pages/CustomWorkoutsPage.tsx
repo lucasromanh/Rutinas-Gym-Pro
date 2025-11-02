@@ -156,7 +156,7 @@ export default function CustomWorkoutsPage() {
             </CardFooter>
           </Card>
         ))}
-        {!customWorkouts.length && <p className="text-sm text-slate-400">Aún no tienes entrenamientos personalizados.</p>}
+  {!customWorkouts.length && <p className="text-sm text-slate-900 dark:text-slate-100">Aún no tienes entrenamientos personalizados.</p>}
       </div>
     </div>
   );

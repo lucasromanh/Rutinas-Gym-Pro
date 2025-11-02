@@ -73,11 +73,16 @@ export function MetricCard({
   className?: string;
 }) {
   return (
-    <div className={cn("rounded-3xl bg-white p-4 shadow-sm dark:bg-slate-900", className)}>
-  <p className="text-sm text-slate-600 dark:text-slate-200">{title}</p>
-  <p className="text-3xl font-semibold text-slate-900 dark:text-slate-100">{value}</p>
-  {highlight && <p className="mt-1 text-sm font-medium text-indigo-600 dark:text-indigo-300">{highlight}</p>}
-  {helper && <p className="mt-2 text-xs text-slate-400 dark:text-slate-200">{helper}</p>}
+    <div
+      className={cn(
+        "rounded-3xl bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white p-4 shadow-sm dark:bg-slate-900 dark:text-slate-100",
+        className,
+      )}
+    >
+      <p className="text-sm text-indigo-100 dark:text-slate-200">{title}</p>
+      <p className="text-3xl font-semibold text-white dark:text-slate-100">{value}</p>
+      {highlight && <p className="mt-1 text-sm font-medium text-indigo-200 dark:text-indigo-300">{highlight}</p>}
+      {helper && <p className="mt-2 text-xs text-indigo-100 dark:text-slate-200">{helper}</p>}
     </div>
   );
 }

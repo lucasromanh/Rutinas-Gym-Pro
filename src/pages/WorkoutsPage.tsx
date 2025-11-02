@@ -5,6 +5,7 @@ import workoutsArt from "@/assets/crear.svg";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useUser } from "@/context/UserContext";
@@ -37,6 +38,8 @@ export default function WorkoutsPage() {
     setSession({ ...defaultSession, date: new Date().toISOString() });
     setSessionNotes("");
   };
+
+  const [selectedSession, setSelectedSession] = useState<WorkoutSession | null>(null);
 
   return (
     <div className="space-y-6 pb-20">
@@ -73,7 +76,7 @@ export default function WorkoutsPage() {
         <CardContent>
           <form className="grid gap-3 sm:grid-cols-2" onSubmit={submit}>
             <div className="sm:col-span-2">
-              <label className="text-xs font-semibold uppercase text-slate-400 dark:text-slate-500">Rutina</label>
+              <label className="text-xs font-semibold uppercase text-slate-900 dark:text-slate-100">Rutina</label>
               <select
                 className="mt-1 h-11 w-full rounded-2xl border border-slate-200 px-3 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
                 value={session.routineId}
@@ -128,21 +131,50 @@ export default function WorkoutsPage() {
       <div className="space-y-3">
         <h2 className="text-lg font-semibold">Historial reciente</h2>
         {history.slice(0, 5).map((entry) => (
-          <Card key={entry.id} className="bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:border-slate-800 dark:bg-slate-900">
+          <Card
+            key={entry.id}
+            onClick={() => setSelectedSession(entry)}
+            className="cursor-pointer bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:border-slate-800 dark:bg-slate-900"
+          >
             <CardHeader>
               <CardTitle className="flex items-center justify-between text-sm text-white dark:text-slate-100">
                 <span>{new Date(entry.date).toLocaleDateString()}</span>
                 <span className="text-xs uppercase text-indigo-200 dark:text-indigo-300">{entry.totalVolume.toLocaleString()} kg</span>
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex justify-between text-xs text-indigo-100 dark:text-slate-400">
+            <CardContent className="flex justify-between text-xs text-indigo-100 dark:text-slate-100">
               <span>{entry.durationMinutes} min</span>
               <span>Esfuerzo: {entry.perceivedEffort}/10</span>
             </CardContent>
           </Card>
         ))}
-        {!history.length && <p className="text-sm text-slate-400 dark:text-slate-500">Sin registros todavía.</p>}
+  {!history.length && <p className="text-sm text-slate-900 dark:text-slate-100">Sin registros todavía.</p>}
       </div>
+      <Dialog open={Boolean(selectedSession)} onOpenChange={(open) => !open && setSelectedSession(null)}>
+        {selectedSession && (
+          <DialogContent>
+            <DialogHeader>
+              <DialogTitle>Registro: {new Date(selectedSession.date).toLocaleDateString()}</DialogTitle>
+            </DialogHeader>
+            <div className="space-y-3">
+              <p className="text-sm">Duración: {selectedSession.durationMinutes} min</p>
+              <p className="text-sm">Volumen: {selectedSession.totalVolume.toLocaleString()} kg</p>
+              <p className="text-sm">Esfuerzo: {selectedSession.perceivedEffort}/10</p>
+              {selectedSession.notes && <p className="text-sm">Notas: {selectedSession.notes}</p>}
+              {selectedSession.performedExercises && selectedSession.performedExercises.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold">Ejercicios realizados</h3>
+                  <ul className="list-disc pl-5 text-sm">
+                    {selectedSession.performedExercises.map((ex) => (
+                      <li key={ex.exerciseId}>{ex.name ?? ex.exerciseId} {ex.sets ? `· ${ex.sets}x${ex.reps ?? ""}` : ""}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </DialogContent>
+        )}
+      </Dialog>
     </div>
   );
 }
