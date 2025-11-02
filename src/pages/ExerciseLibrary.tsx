@@ -56,11 +56,14 @@ export default function ExerciseLibrary() {
 
       <div className="grid gap-4 md:grid-cols-2">
         {filtered.map((exercise) => (
-          <Card key={exercise.id}>
+          <Card
+            key={exercise.id}
+            className="bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-700"
+          >
             <CardHeader className="pb-2">
-              <CardTitle className="text-base">{exercise.name}</CardTitle>
+              <CardTitle className="text-base text-white dark:text-slate-100">{exercise.name}</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-1 text-sm text-slate-500">
+            <CardContent className="space-y-1 text-sm text-indigo-100 dark:text-slate-200">
               <p>Categoría: {exercise.category}</p>
               <p>Músculo principal: {exercise.primaryMuscle}</p>
               <p>Equipo: {exercise.equipment}</p>

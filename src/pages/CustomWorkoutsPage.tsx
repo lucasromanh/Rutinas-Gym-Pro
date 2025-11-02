@@ -132,11 +132,11 @@ export default function CustomWorkoutsPage() {
       <div className="space-y-4">
         <h2 className="text-lg font-semibold">Tus rutinas personalizadas</h2>
         {customWorkouts.map((workout) => (
-          <Card key={workout.id}>
+          <Card key={workout.id} className="bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:bg-slate-900">
             <CardHeader>
-              <CardTitle>{workout.name}</CardTitle>
+              <CardTitle className="text-white dark:text-slate-100">{workout.name}</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-3 text-sm text-slate-500">
+            <CardContent className="space-y-3 text-sm text-indigo-100 dark:text-slate-200">
               <p>Zonas: {workout.focusAreas.join(", ") || "General"}</p>
               <ul className="space-y-2">
                 {workout.exercises.map((exercise, index) => (
@@ -144,7 +144,7 @@ export default function CustomWorkoutsPage() {
                     <span>
                       {exercise.name} · {exercise.sets}x{exercise.reps}
                     </span>
-                    {exercise.load && <span className="text-xs text-slate-400">{exercise.load}</span>}
+                    {exercise.load && <span className="text-xs text-indigo-200">{exercise.load}</span>}
                   </li>
                 ))}
               </ul>

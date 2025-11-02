@@ -54,7 +54,7 @@ export function ProgressRing({
           {Math.round(percent)}%
         </text>
       </svg>
-      {label && <span className="text-sm text-slate-500">{label}</span>}
+  {label && <span className="text-sm text-slate-500 dark:text-slate-200">{label}</span>}
     </div>
   );
 }
@@ -74,10 +74,10 @@ export function MetricCard({
 }) {
   return (
     <div className={cn("rounded-3xl bg-white p-4 shadow-sm dark:bg-slate-900", className)}>
-      <p className="text-sm text-slate-500">{title}</p>
-      <p className="text-3xl font-semibold text-slate-900 dark:text-white">{value}</p>
-      {highlight && <p className="mt-1 text-sm font-medium text-indigo-600">{highlight}</p>}
-      {helper && <p className="mt-2 text-xs text-slate-400">{helper}</p>}
+  <p className="text-sm text-slate-600 dark:text-slate-200">{title}</p>
+  <p className="text-3xl font-semibold text-slate-900 dark:text-slate-100">{value}</p>
+  {highlight && <p className="mt-1 text-sm font-medium text-indigo-600 dark:text-indigo-300">{highlight}</p>}
+  {helper && <p className="mt-2 text-xs text-slate-400 dark:text-slate-200">{helper}</p>}
     </div>
   );
 }

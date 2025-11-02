@@ -43,13 +43,13 @@ export default function HomePage() {
             value={bmi ? bmi.toString() : "-"}
             highlight={bmiLabel}
             helper="Mantén tus progresos actualizando el peso cada semana."
-            className="bg-white/10 backdrop-blur"
+            className="bg-white backdrop-blur dark:bg-slate-800"
           />
           <MetricCard
             title="Volumen reciente"
             value={`${totalVolume.toLocaleString()} kg`}
             helper="Promedio de tus últimas 5 sesiones registradas."
-            className="bg-white/10 backdrop-blur"
+            className="bg-white backdrop-blur dark:bg-slate-800"
           />
         </CardContent>
       </Card>
@@ -58,13 +58,13 @@ export default function HomePage() {
         {activeRoutine && (
           <Link
             to={`/workouts/${activeRoutine.id}`}
-            className="block rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-100 hover:shadow-md transition-shadow dark:bg-slate-900"
+            className="block rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-100 hover:shadow-md transition-shadow dark:bg-slate-900 dark:ring-slate-700"
           >
             <div className="flex items-center justify-between">
               <div>
-                <div className="text-sm text-slate-600">Rutina activa</div>
-                <div className="text-base font-semibold text-slate-800">{activeRoutine.name}</div>
-                <div className="text-xs text-slate-500">{activeRoutine.sessionsPerWeek} sesiones/semana</div>
+                <div className="text-sm text-slate-600 dark:text-slate-200">Rutina activa</div>
+                <div className="text-base font-semibold text-slate-800 dark:text-slate-100">{activeRoutine.name}</div>
+                <div className="text-xs text-slate-500 dark:text-slate-200">{activeRoutine.sessionsPerWeek} sesiones/semana</div>
               </div>
               <div>
                 <img src={activeRoutine.coverImage} alt={activeRoutine.name} className="h-12 w-12 rounded-lg object-cover" />
@@ -89,14 +89,14 @@ export default function HomePage() {
                     <CardDescription>
                       {routine.sessionsPerWeek} días • {routine.durationWeeks} semanas
                     </CardDescription>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      <Badge variant="default">{routine.goal}</Badge>
-                      <Badge variant="outline">{routine.level}</Badge>
-                    </div>
+                        <div className="mt-2 flex flex-wrap gap-2">
+                          <Badge variant="default">{routine.goal}</Badge>
+                          <Badge variant="outline">{routine.level}</Badge>
+                        </div>
                   </div>
                 </CardHeader>
                 <CardContent className="flex items-center justify-between pt-0">
-                  <p className="text-sm text-slate-500">{routine.summary}</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-200">{routine.summary}</p>
                   <Button variant="primary" size="sm" asChild>
                     <Link to={`/workouts/${routine.id}`} className="flex items-center gap-2">
                       Ver
@@ -121,7 +121,7 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               <Progress value={Math.min((weeklySessions / (profile?.weeklyFrequency ?? 3)) * 100, 100)} />
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs text-slate-400 dark:text-slate-200">
                 {weeklySessions} de {profile?.weeklyFrequency ?? 3} sesiones completadas.
               </p>
             </CardContent>
@@ -133,8 +133,8 @@ export default function HomePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-semibold">{calculateStreak(history)} días</p>
-              <p className="text-xs text-slate-400">Mantén el ritmo para desbloquear logros premium.</p>
+              <p className="text-3xl font-semibold dark:text-slate-100">{calculateStreak(history)} días</p>
+              <p className="text-xs text-slate-400 dark:text-slate-200">Mantén el ritmo para desbloquear logros premium.</p>
             </CardContent>
           </Card>
           <Card>
@@ -145,12 +145,12 @@ export default function HomePage() {
             </CardHeader>
             <CardContent>
               {history.length ? (
-                <p className="text-sm text-slate-500">
+                <p className="text-sm text-slate-500 dark:text-slate-200">
                   {new Date(history[0].date).toLocaleDateString()} · {history[0].durationMinutes} min · {" "}
                   {history[0].totalVolume.toLocaleString()} kg
                 </p>
               ) : (
-                <p className="text-sm text-slate-400">Aún no registraste tus entrenamientos.</p>
+                <p className="text-sm text-slate-400 dark:text-slate-200">Aún no registraste tus entrenamientos.</p>
               )}
             </CardContent>
           </Card>

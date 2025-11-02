@@ -23,13 +23,16 @@ export default function ProgramPage() {
 
       <div className="grid gap-4">
         {routines.map((routine) => (
-          <Card key={routine.id} className="overflow-hidden">
+          <Card
+            key={routine.id}
+            className="overflow-hidden bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:bg-slate-900"
+          >
             <CardHeader className="flex items-start gap-4">
               <img src={routine.coverImage} alt={routine.name} className="h-20 w-20 rounded-2xl object-cover" />
               <div className="space-y-2">
-                <CardTitle>{routine.name}</CardTitle>
-                <CardDescription>{routine.summary}</CardDescription>
-                <div className="flex flex-wrap gap-2 text-xs font-semibold uppercase text-indigo-600">
+                <CardTitle className="text-white dark:text-slate-100">{routine.name}</CardTitle>
+                <CardDescription className="text-indigo-100 dark:text-slate-200">{routine.summary}</CardDescription>
+                <div className="flex flex-wrap gap-2 text-xs font-semibold uppercase text-indigo-200">
                   <Badge variant="default">{routine.goal}</Badge>
                   <Badge variant="outline">{routine.level}</Badge>
                   <Badge variant="outline">{routine.sessionsPerWeek}x semana</Badge>
@@ -37,7 +40,7 @@ export default function ProgramPage() {
               </div>
             </CardHeader>
             <CardContent className="flex items-center justify-between pt-0">
-              <div className="text-sm text-slate-500">
+              <div className="text-sm text-indigo-100 dark:text-slate-200">
                 <p>Duración: {routine.durationWeeks} semanas</p>
                 <p>Zonas clave: {routine.focusAreas.join(", ")}</p>
               </div>

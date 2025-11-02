@@ -40,7 +40,7 @@ export default function WorkoutsPage() {
 
   return (
     <div className="space-y-6 pb-20">
-      <Card className="border-none bg-gradient-to-br from-indigo-500/10 to-indigo-100 text-slate-700 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 dark:text-slate-100">
+  <Card className="border-none bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:from-slate-900 dark:via-slate-900 dark:to-slate-950 dark:text-slate-100">
         <CardHeader className="flex items-center gap-4">
           <img src={workoutsArt} alt="Entrenamientos" className="h-16 w-16 rounded-2xl" />
           <div>
@@ -128,14 +128,14 @@ export default function WorkoutsPage() {
       <div className="space-y-3">
         <h2 className="text-lg font-semibold">Historial reciente</h2>
         {history.slice(0, 5).map((entry) => (
-          <Card key={entry.id} className="dark:border-slate-800 dark:bg-slate-900">
+          <Card key={entry.id} className="bg-gradient-to-br from-indigo-500 via-indigo-400 to-indigo-600 text-white dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
-              <CardTitle className="flex items-center justify-between text-sm text-slate-600 dark:text-slate-100">
+              <CardTitle className="flex items-center justify-between text-sm text-white dark:text-slate-100">
                 <span>{new Date(entry.date).toLocaleDateString()}</span>
-                <span className="text-xs uppercase text-indigo-600 dark:text-indigo-300">{entry.totalVolume.toLocaleString()} kg</span>
+                <span className="text-xs uppercase text-indigo-200 dark:text-indigo-300">{entry.totalVolume.toLocaleString()} kg</span>
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex justify-between text-xs text-slate-500 dark:text-slate-400">
+            <CardContent className="flex justify-between text-xs text-indigo-100 dark:text-slate-400">
               <span>{entry.durationMinutes} min</span>
               <span>Esfuerzo: {entry.perceivedEffort}/10</span>
             </CardContent>
